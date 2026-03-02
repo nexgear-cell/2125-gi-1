@@ -3,323 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUR2125 · GI/Hepatology Quiz for CA</title>
+    <title>NUR2125 · GI PPNP Quiz</title>
     <style>
         * {
             box-sizing: border-box;
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
         body {
-            background: #f1f5f9;
+            background: #eef3f8;
             margin: 0;
-            padding: 24px 16px;
+            min-height: 100vh;
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            justify-content: center;
+            padding: 20px 16px;
         }
-        .app-container {
-            max-width: 1100px;
+        .app-wrapper {
+            max-width: 900px;
             width: 100%;
         }
         header {
-            background: #0b2b40;
+            background: linear-gradient(145deg, #0b2b40, #15475f);
             color: white;
-            padding: 24px 28px;
-            border-radius: 32px 32px 32px 32px;
+            padding: 28px 30px;
+            border-radius: 40px 40px 40px 40px;
             margin-bottom: 32px;
-            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2);
-            border: 1px solid #1e4a6b;
+            box-shadow: 0 15px 25px -8px rgba(0,40,60,0.3);
+            border: 1px solid #2b6a8c;
         }
         header h1 {
             margin: 0 0 8px 0;
             font-weight: 600;
-            font-size: 2.0rem;
+            font-size: 2.2rem;
             letter-spacing: -0.02em;
         }
         header p {
-            margin: 0;
-            color: #bbd4e7;
-            font-weight: 400;
+            margin: 0 0 12px 0;
+            color: #c2def5;
             font-size: 1.1rem;
         }
-        .badge {
-            background: #1e5c7c;
-            padding: 6px 16px;
-            border-radius: 40px;
-            display: inline-block;
-            margin-top: 14px;
-            font-size: 0.9rem;
-            font-weight: 500;
-        }
-        .search-box {
-            background: white;
-            border-radius: 60px;
-            padding: 6px 6px 6px 24px;
+        .part-selector {
             display: flex;
-            align-items: center;
-            margin: 24px 0 28px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
-            border: 1px solid #dbe0e6;
-        }
-        .search-box i {
-            color: #7f8c9b;
-            margin-right: 8px;
-        }
-        .search-box input {
-            border: none;
-            flex: 1;
-            padding: 14px 0;
-            font-size: 1rem;
-            background: transparent;
-            outline: none;
-        }
-        .search-box input::placeholder {
-            color: #9aabbb;
-        }
-        .filter-pills {
-            display: flex;
-            gap: 12px;
             flex-wrap: wrap;
-            margin-bottom: 28px;
+            gap: 10px;
+            background: #1c506e;
+            padding: 12px 18px;
+            border-radius: 50px;
+            margin-top: 12px;
         }
-        .pill {
-            background: white;
-            border: 1px solid #cdd9e6;
-            color: #1f3a4e;
+        .part-btn {
+            background: transparent;
+            border: 1px solid #4794b9;
+            color: white;
             padding: 8px 18px;
             border-radius: 40px;
-            font-size: 0.9rem;
             font-weight: 500;
+            font-size: 0.9rem;
             cursor: pointer;
             transition: all 0.15s;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
         }
-        .pill.active {
-            background: #0b2b40;
-            color: white;
-            border-color: #0b2b40;
-        }
-        .question-card {
+        .part-btn.active {
             background: white;
-            border-radius: 28px;
-            padding: 28px;
-            margin-bottom: 24px;
-            box-shadow: 0 8px 24px rgba(0, 20, 40, 0.06);
-            border: 1px solid #e9eef3;
-            transition: box-shadow 0.2s;
+            color: #0b2b40;
+            border-color: white;
         }
-        .question-card:hover {
-            box-shadow: 0 12px 28px rgba(0, 30, 60, 0.08);
+        .part-btn:hover {
+            background: #347a9e;
+            border-color: #a3d0e8;
         }
-        .q-title {
-            display: flex;
-            gap: 12px;
-            align-items: baseline;
-            margin-bottom: 16px;
-        }
-        .q-num {
-            background: #dde9f5;
-            color: #0a2c3d;
-            font-weight: 600;
-            width: 32px;
-            height: 32px;
+        .score-panel {
+            background: white;
+            border-radius: 60px;
+            padding: 14px 28px;
+            margin: 25px 0 20px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            border-radius: 12px;
-            font-size: 0.9rem;
+            justify-content: space-between;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.04);
+            border: 1px solid #c7ddec;
+        }
+        .score-badge {
+            background: #0b2b40;
+            color: white;
+            font-weight: 600;
+            padding: 6px 24px;
+            border-radius: 40px;
+            letter-spacing: 0.3px;
+        }
+        .q-container {
+            background: white;
+            border-radius: 36px;
+            padding: 30px 32px;
+            box-shadow: 0 12px 28px rgba(0, 25, 45, 0.08);
+            border: 1px solid #d6e4f0;
+        }
+        .q-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+        .q-num {
+            background: #dbeaf5;
+            color: #103d57;
+            font-weight: 700;
+            padding: 8px 18px;
+            border-radius: 40px;
+            font-size: 1rem;
+        }
+        .part-tag {
+            background: #ced9e8;
+            color: #1f4662;
+            padding: 6px 18px;
+            border-radius: 40px;
+            font-weight: 500;
         }
         .q-text {
+            font-size: 1.35rem;
             font-weight: 500;
-            font-size: 1.2rem;
-            color: #0b1e2c;
             line-height: 1.5;
-            margin: 0;
+            color: #05212e;
+            margin: 20px 0 30px;
         }
         .options {
             display: flex;
             flex-direction: column;
             gap: 14px;
-            margin: 28px 0 20px;
+            margin: 30px 0 25px;
         }
         .option-item {
             display: flex;
             align-items: center;
-            gap: 18px;
-            background: #f8fafd;
-            border-radius: 18px;
-            padding: 16px 24px;
-            border: 2px solid transparent;
-            transition: 0.1s;
+            gap: 20px;
+            background: #f6fafd;
+            border: 2px solid #d9e6f2;
+            border-radius: 28px;
+            padding: 18px 28px;
             cursor: pointer;
-            border: 2px solid #e2eaf2;
+            transition: all 0.1s;
         }
         .option-item.selected {
-            border-color: #0b2b40;
-            background: #e2f0f9;
+            border-color: #1e6e9c;
+            background: #e1f0fa;
         }
         .option-letter {
-            font-weight: 700;
+            width: 46px;
+            height: 46px;
             background: white;
-            width: 40px;
-            height: 40px;
+            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 30px;
+            font-weight: 800;
+            font-size: 1.4rem;
             color: #0b2b40;
-            border: 1px solid #c3d5e4;
-            font-size: 1.2rem;
+            border: 1px solid #b7cfdf;
         }
         .option-text {
-            font-size: 1.05rem;
-            color: #1a3243;
+            font-size: 1.1rem;
+            color: #1a384b;
+            flex: 1;
         }
         .answer-panel {
-            background: #f0f6fd;
-            border-radius: 22px;
-            padding: 22px 28px;
-            margin-top: 22px;
-            border-left: 6px solid #1a6e9a;
-            animation: fadeIn 0.2s ease;
+            background: #ecf6fe;
+            border-radius: 26px;
+            padding: 24px 30px;
+            margin: 24px 0 16px;
+            border-left: 6px solid #116b99;
         }
         .correct-badge {
-            background: #166534;
+            background: #117a4b;
             color: white;
             font-weight: 600;
-            padding: 6px 20px;
-            border-radius: 30px;
+            padding: 6px 22px;
+            border-radius: 40px;
             display: inline-block;
-            font-size: 0.9rem;
-            margin-bottom: 16px;
-            letter-spacing: 0.3px;
+            margin-bottom: 15px;
         }
         .rationale {
-            font-size: 1rem;
-            margin: 14px 0 10px;
-            color: #03314b;
+            font-size: 1.05rem;
+            color: #023047;
+            margin: 12px 0;
             line-height: 1.6;
         }
         .source {
-            font-size: 0.9rem;
-            color: #3a5e74;
-            background: #e4edf5;
-            padding: 12px 18px;
+            background: #ddeeff;
+            padding: 12px 22px;
             border-radius: 40px;
+            color: #1d5472;
             display: inline-block;
-            margin-top: 12px;
+            font-size: 0.95rem;
         }
-        .footnote {
-            text-align: right;
-            font-size: 0.8rem;
-            color: #627a8c;
-            margin-top: 12px;
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0 15px;
         }
-        .reset-btn {
+        .nav-btn {
             background: white;
-            border: 1px solid #bdcbd9;
-            padding: 12px 24px;
+            border: 1.5px solid #b9cfdf;
+            padding: 14px 30px;
             border-radius: 50px;
-            font-weight: 500;
-            color: #1c4058;
+            font-weight: 600;
+            color: #1c4e6e;
+            font-size: 1rem;
             cursor: pointer;
             transition: 0.1s;
-            margin-bottom: 20px;
             display: inline-flex;
             align-items: center;
-            gap: 6px;
+            gap: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.02);
         }
-        .reset-btn:hover {
-            background: #edf3f9;
+        .nav-btn:hover:not(:disabled) {
+            background: #e5f0f9;
+            border-color: #6f9fbf;
         }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-4px); }
-            to { opacity: 1; transform: translateY(0); }
+        .nav-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
         }
-        .stats {
-            color: #3f5b71;
+        .index-indicator {
+            font-weight: 600;
+            color: #1e5d80;
+            background: #eaf3fb;
+            padding: 8px 24px;
+            border-radius: 40px;
+        }
+        .clear-btn {
+            background: none;
+            border: 1px solid #bbd1e0;
+            padding: 10px 24px;
+            border-radius: 40px;
+            color: #2b4f69;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.1s;
+        }
+        .clear-btn:hover {
+            background: #f0f6fd;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #6c8aa3;
             font-size: 0.9rem;
-            margin-left: 12px;
         }
         .loader {
             text-align: center;
-            padding: 60px;
-            color: #2f5777;
-            font-size: 1.2rem;
-        }
-        footer {
-            margin-top: 40px;
-            color: #6f88a0;
-            text-align: center;
-            font-size: 0.85rem;
+            padding: 70px;
+            color: #326885;
+            font-size: 1.3rem;
         }
     </style>
 </head>
 <body>
-<div class="app-container" id="app">
+<div class="app-wrapper" id="app">
     <header>
-        <h1>🧪 NUR2125 - GI · Hepatology Quiz for CA</h1>
-        <p>antiemetics · diarrhoea · constipation · PUD · hepatitis · cirrhosis</p>
-        <div class="badge">📋 180 case-based questions with rationales & sources</div>
+        <h1>🧪 NUR2125 GI PPNP Quiz</h1>
+        <p>one question at a time | track your score per part</p>
+        <div class="part-selector">
+            <button v-for="p in partList" :key="p.val" class="part-btn" :class="{active: currentPart === p.val}" @click="switchPart(p.val)">{{ p.label }}</button>
+        </div>
     </header>
 
-    <!-- Loading indicator -->
-    <div v-if="!questionsLoaded" class="loader">
-        <span>⏳ loading question bank from JSON ...</span>
-    </div>
+    <!-- loading / error -->
+    <div v-if="!loaded" class="loader">⏳ loading question bank ...</div>
 
-    <template v-if="questionsLoaded">
-        <div class="search-box">
-            <i>🔍</i>
-            <input type="text" placeholder="Search questions (e.g. 'lactulose', 'variceal', 'misoprostol')" v-model="searchTerm">
+    <template v-else>
+        <!-- Score panel for selected part -->
+        <div class="score-panel" v-if="filteredQuestions.length > 0">
+            <span>📊 part {{ currentPart }} score</span>
+            <span class="score-badge">{{ partScore.correct }} / {{ partScore.total }} ({{ Math.round(partScore.percent) }}%)</span>
+            <button class="clear-btn" @click="clearPartAnswers">clear part answers</button>
         </div>
 
-        <div class="filter-pills">
-            <span class="pill" :class="{active: currentPart === 'all'}" @click="currentPart = 'all'">📚 All parts</span>
-            <span class="pill" :class="{active: currentPart === '1'}" @click="currentPart = '1'">1 Antiemetics</span>
-            <span class="pill" :class="{active: currentPart === '2'}" @click="currentPart = '2'">2 Diarrhea</span>
-            <span class="pill" :class="{active: currentPart === '3'}" @click="currentPart = '3'">3 Constipation</span>
-            <span class="pill" :class="{active: currentPart === '4'}" @click="currentPart = '4'">4 Obstruction</span>
-            <span class="pill" :class="{active: currentPart === '5'}" @click="currentPart = '5'">5 PUD</span>
-            <span class="pill" :class="{active: currentPart === '6'}" @click="currentPart = '6'">6 Cholecystitis</span>
-            <span class="pill" :class="{active: currentPart === '7'}" @click="currentPart = '7'">7 Hepatitis</span>
-            <span class="pill" :class="{active: currentPart === '8'}" @click="currentPart = '8'">8 Cirrhosis</span>
-            <span class="pill" :class="{active: currentPart === '9-13'}" @click="currentPart = '9-13'">9–13 Pharmacology</span>
-        </div>
-
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-            <div class="reset-btn" @click="resetAllSelections">
-                <span>⟲</span> Reset all selections
+        <!-- main question card -->
+        <div class="q-container" v-if="filteredQuestions.length > 0">
+            <div class="q-header">
+                <span class="q-num">Q{{ currentIndex + 1 }} of {{ filteredQuestions.length }}</span>
+                <span class="part-tag">part {{ currentQuestion.part }}</span>
             </div>
-            <div class="stats">{{ filteredQuestions.length }} questions shown</div>
-        </div>
-
-        <div v-for="(q, idx) in filteredQuestions" :key="q.id" class="question-card">
-            <div class="q-title">
-                <span class="q-num">{{ q.id }}</span>
-                <div class="q-text" v-html="q.question"></div>
-            </div>
+            <div class="q-text" v-html="currentQuestion.question"></div>
 
             <div class="options">
-                <div v-for="opt in ['A','B','C','D']" :key="opt" class="option-item" :class="{selected: selections[q.id] === opt}" @click="selectAnswer(q.id, opt)">
+                <div v-for="opt in ['A','B','C','D']" :key="opt" class="option-item" :class="{selected: userAnswer === opt}" @click="setAnswer(opt)">
                     <span class="option-letter">{{ opt }}</span>
-                    <span class="option-text" v-html="q.options[opt]"></span>
+                    <span class="option-text" v-html="currentQuestion.options[opt]"></span>
                 </div>
             </div>
 
-            <div v-if="selections[q.id]" class="answer-panel">
-                <div class="correct-badge">✓ correct answer: {{ q.answer }}</div>
-                <div class="rationale"><strong>Rationale:</strong> {{ q.rationale }}</div>
-                <div class="source"><span style="opacity:0.7">📘</span> {{ q.source }}</div>
-                <div class="footnote" v-if="q.note">* {{ q.note }}</div>
+            <!-- answer panel (only if answer selected) -->
+            <div v-if="userAnswer" class="answer-panel">
+                <div class="correct-badge">✓ correct answer: {{ currentQuestion.answer }}</div>
+                <div class="rationale"><strong>Rationale:</strong> {{ currentQuestion.rationale }}</div>
+                <div class="source"><span style="opacity:0.7">📘</span> {{ currentQuestion.source }}</div>
+                <div style="margin-top: 15px; font-style:italic;" v-if="userAnswer === currentQuestion.answer">✅ you are correct</div>
+                <div style="margin-top: 15px; font-style:italic; color:#a12a2a;" v-else>❌ your answer: {{ userAnswer }}</div>
+            </div>
+
+            <!-- navigation -->
+            <div class="nav-buttons">
+                <button class="nav-btn" :disabled="currentIndex === 0" @click="prevQuestion">← Previous</button>
+                <span class="index-indicator">{{ currentIndex + 1 }} / {{ filteredQuestions.length }}</span>
+                <button class="nav-btn" :disabled="currentIndex === filteredQuestions.length - 1" @click="nextQuestion">Next →</button>
             </div>
         </div>
 
-        <div v-if="filteredQuestions.length === 0" style="background: white; border-radius: 30px; padding: 50px; text-align: center; color: #556c7e;">
-            ⚡ no questions match your filter. try a different keyword or part.
+        <!-- no questions in part -->
+        <div v-else style="background:white; border-radius:40px; padding:60px; text-align:center; color:#466882;">
+            🧫 no questions in part {{ currentPart }}.
         </div>
     </template>
-    <footer>STEM NCLEX · comprehensive GI bank · questions loaded from external JSON · v2.0</footer>
+    <footer>STEM NCLEX · single question mode · score per part</footer>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
@@ -327,55 +322,95 @@
     new Vue({
         el: '#app',
         data: {
-            questions: [],
-            questionsLoaded: false,
-            selections: {},  // questionId -> selected letter
-            searchTerm: '',
-            currentPart: 'all'
+            allQuestions: [],
+            loaded: false,
+            currentPart: '1',           // default part
+            currentIndex: 0,             // index within filtered list
+            userAnswers: {},              // key: questionId (string) -> selected letter
         },
         computed: {
+            partList() {
+                // build from actual data if possible, but static list works
+                return [
+                    { val: '1', label: '1 Antiemetics' },
+                    { val: '2', label: '2 Diarrhea' },
+                    { val: '3', label: '3 Constipation' },
+                    { val: '4', label: '4 Obstruction' },
+                    { val: '5', label: '5 PUD' },
+                    { val: '6', label: '6 Cholecystitis' },
+                    { val: '7', label: '7 Hepatitis' },
+                    { val: '8', label: '8 Cirrhosis' },
+                    { val: '9-13', label: '9–13 Pharm' }
+                ];
+            },
             filteredQuestions() {
-                return this.questions.filter(q => {
-                    const partMatch = this.currentPart === 'all' || q.part === this.currentPart;
-                    if (!partMatch) return false;
-                    if (!this.searchTerm.trim()) return true;
-                    const term = this.searchTerm.toLowerCase();
-                    return q.question.toLowerCase().includes(term) ||
-                           (q.rationale && q.rationale.toLowerCase().includes(term)) ||
-                           (q.source && q.source.toLowerCase().includes(term)) ||
-                           Object.values(q.options).some(opt => opt.toLowerCase().includes(term));
+                if (!this.allQuestions.length) return [];
+                return this.allQuestions.filter(q => q.part === this.currentPart);
+            },
+            currentQuestion() {
+                if (this.filteredQuestions.length === 0) return null;
+                return this.filteredQuestions[this.currentIndex];
+            },
+            userAnswer() {
+                if (!this.currentQuestion) return null;
+                return this.userAnswers[this.currentQuestion.id] || null;
+            },
+            partScore() {
+                let total = 0;
+                let correct = 0;
+                this.filteredQuestions.forEach(q => {
+                    const ans = this.userAnswers[q.id];
+                    if (ans) {
+                        total++;
+                        if (ans === q.answer) correct++;
+                    }
                 });
+                const percent = total === 0 ? 0 : (correct / total) * 100;
+                return { correct, total, percent };
             }
         },
         methods: {
-            selectAnswer(qId, opt) {
-                if (this.selections[qId] === opt) {
-                    this.$set(this.selections, qId, null);  // allow unselect
+            setAnswer(opt) {
+                if (!this.currentQuestion) return;
+                // set or toggle? we'll set, but if same option -> we can unset (optional)
+                if (this.userAnswers[this.currentQuestion.id] === opt) {
+                    this.$delete(this.userAnswers, this.currentQuestion.id); // unselect
                 } else {
-                    this.$set(this.selections, qId, opt);
+                    this.$set(this.userAnswers, this.currentQuestion.id, opt);
                 }
             },
-            resetAllSelections() {
-                this.selections = {};
+            prevQuestion() {
+                if (this.currentIndex > 0) this.currentIndex--;
+            },
+            nextQuestion() {
+                if (this.currentIndex < this.filteredQuestions.length - 1) this.currentIndex++;
+            },
+            switchPart(partVal) {
+                this.currentPart = partVal;
+                this.currentIndex = 0; // reset to first question
+            },
+            clearPartAnswers() {
+                // remove all answers for questions in current part
+                this.filteredQuestions.forEach(q => {
+                    if (this.userAnswers[q.id]) {
+                        this.$delete(this.userAnswers, q.id);
+                    }
+                });
             },
             loadQuestions() {
                 fetch('questions.json')
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error(`HTTP error! status: ${response.status}`);
-                        }
-                        return response.json();
+                    .then(r => {
+                        if (!r.ok) throw new Error('network');
+                        return r.json();
                     })
                     .then(data => {
-                        this.questions = data;
-                        this.questionsLoaded = true;
+                        this.allQuestions = data;
+                        this.loaded = true;
                     })
-                    .catch(error => {
-                        console.error('Failed to load questions:', error);
-                        // fallback: show error message, but keep loaded true to hide loader
-                        this.questionsLoaded = true; 
-                        this.questions = []; // empty array, will show "no questions" message
-                        // optionally push a demo error card? we'll keep silent.
+                    .catch(err => {
+                        console.error(err);
+                        // fallback: show empty, but set loaded true to hide loader
+                        this.loaded = true;
                     });
             }
         },
