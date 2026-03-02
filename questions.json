@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "001",
+    "part": "1",
+    "question": "A patient undergoing moderately emetogenic chemotherapy is prescribed Dexamethasone. Which statement best describes the purpose of this medication in this context?",
+    "options": {
+      "A": "It blocks 5-HT3 receptors in the gastrointestinal tract.",
+      "B": "It acts as an adjunct to prevent acute and delayed nausea and vomiting.",
+      "C": "It antagonizes dopamine D2 receptors in the chemoreceptor trigger zone.",
+      "D": "It is used primarily for its anti-inflammatory effects on the gastric mucosa."
+    },
+    "answer": "B",
+    "rationale": "Corticosteroids like Dexamethasone are used to prevent acute and delayed nausea and vomiting in patients on moderately to highly emetogenic chemotherapy, though the exact mechanism remains unknown.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Corticosteroids section)"
+  },
+  {
+    "id": "002",
+    "part": "1",
+    "question": "A patient is prescribed Metoclopramide for gastroparesis. Which adverse effect should the nurse monitor for most closely?",
+    "options": {
+      "A": "QT interval prolongation.",
+      "B": "Extrapyramidal symptoms (EPS).",
+      "C": "Stevens-Johnson syndrome.",
+      "D": "Severe hypertension."
+    },
+    "answer": "B",
+    "rationale": "Metoclopramide is a dopamine receptor antagonist that can cause extrapyramidal symptoms (EPS) and elevated prolactin levels.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Dopamine Receptor Antagonists section)"
+  },
+  {
+    "id": "003",
+    "part": "1",
+    "question": "Which antiemetic class is considered the first line for preventing acute chemotherapy-induced nausea and vomiting (CINV)?",
+    "options": {
+      "A": "Neurokinin Receptor Antagonists.",
+      "B": "Benzodiazepines.",
+      "C": "Serotonin 5-HT3 Receptor Antagonists.",
+      "D": "Histamine Receptor Antagonists."
+    },
+    "answer": "C",
+    "rationale": "Serotonin 5-HT3 receptor antagonists (e.g., Ondansetron) are used for the prevention of acute CINV.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Serotonin 5-HT3 Antagonists section)"
+  },
+  {
+    "id": "004",
+    "part": "1",
+    "question": "A nurse is preparing to administer Palonosetron. The nurse understands that this drug prevents vomiting by which mechanism?",
+    "options": {
+      "A": "Blocking signals from the GI tract to the CNS via 5-HT3 receptors.",
+      "B": "Increasing chloride conductance via GABA receptors.",
+      "C": "Inhibiting neurokinin 1 receptors in the area postrema.",
+      "D": "Enhancing gastric motility through prokinetic effects."
+    },
+    "answer": "A",
+    "rationale": "Serotonin 5-HT3 antagonists block receptors to prevent the transmission of signals from the GI tract to the CNS.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Serotonin 5-HT3 Antagonists section)"
+  },
+  {
+    "id": "005",
+    "part": "1",
+    "question": "A student nurse experiences \"anticipatory vomiting\" before clinical rotations due to anxiety and foul odors. Which medication is most appropriate for this specific condition?",
+    "options": {
+      "A": "Ondansetron.",
+      "B": "Lorazepam.",
+      "C": "Metoclopramide.",
+      "D": "Dexamethasone."
+    },
+    "answer": "B",
+    "rationale": "Benzodiazepines like Lorazepam are used for anticipatory vomiting or vomiting due to anxiety because of their anxiolytic effects.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Benzodiazepines section/Case Scenario)"
+  },
+  {
+    "id": "006",
+    "part": "1",
+    "question": "Which medication blocks Neurokinin 1 receptors in the area postrema to prevent nausea from highly emetogenic chemotherapy?",
+    "options": {
+      "A": "Granisetron.",
+      "B": "Aprepitant.",
+      "C": "Domperidone.",
+      "D": "Diazepam."
+    },
+    "answer": "B",
+    "rationale": "Aprepitant is a Neurokinin Receptor Antagonist that blocks NK1 receptors in the area postrema.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Neurokinin Receptor Antagonists section)"
+  },
+  {
+    "id": "007",
+    "part": "1",
+    "question": "A nurse is reviewing the side effects of Ondansetron. Which cardiac complication is a known risk?",
+    "options": {
+      "A": "Bradycardia.",
+      "B": "QT interval prolongation.",
+      "C": "Atrial fibrillation.",
+      "D": "Complete heart block."
+    },
+    "answer": "B",
+    "rationale": "5-HT3 antagonists carry a risk of cardiac arrhythmia, specifically QT interval prolongation.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Serotonin 5-HT3 Antagonists section)"
+  },
+  {
+    "id": "008",
+    "part": "1",
+    "question": "Which antiemetic is also used for its prokinetic effect in patients with post-prandial bloating?",
+    "options": {
+      "A": "Aprepitant.",
+      "B": "Metoclopramide.",
+      "C": "Fosaprepitant.",
+      "D": "Lorazepam."
+    },
+    "answer": "B",
+    "rationale": "Metoclopramide antagonizes D2 receptors and has a prokinetic effect, useful for gastroparesis and bloating.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Dopamine Receptor Antagonists section)"
+  },
+  {
+    "id": "009",
+    "part": "1",
+    "question": "What is a common side effect of Neurokinin Receptor Antagonists such as Fosaprepitant?",
+    "options": {
+      "A": "Extrapyramidal symptoms.",
+      "B": "Hiccups.",
+      "C": "Sedation.",
+      "D": "Hypertension."
+    },
+    "answer": "B",
+    "rationale": "Adverse effects of Neurokinin Receptor Antagonists include fatigue, hiccups, and diarrhea/constipation.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Neurokinin Receptor Antagonists section)"
+  },
+  {
+    "id": "010",
+    "part": "1",
+    "question": "A patient with nausea is prescribed Domperidone. The nurse recognizes that this drug works primarily by:",
+    "options": {
+      "A": "Stimulating GABA receptors.",
+      "B": "Antagonizing dopamine D2 receptors at the chemoreceptor trigger zone.",
+      "C": "Blocking muscarinic M1 receptors.",
+      "D": "Inhibiting histamine H2 receptors."
+    },
+    "answer": "B",
+    "rationale": "Domperidone, like Metoclopramide, is a dopamine receptor antagonist acting on the CTZ.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Dopamine Receptor Antagonists section)"
+  },
+  {
+    "id": "011",
+    "part": "2",
+    "question": "A patient is prescribed Loperamide for acute diarrhea. The nurse knows that this drug works by:",
+    "options": {
+      "A": "Acting on opioid receptors on intestinal muscles to increase transit time.",
+      "B": "Absorbing bacterial toxins in the gut lumen.",
+      "C": "Coating the ulcerated areas of the colon.",
+      "D": "Restoring the gut microbiome to a healthy balance."
+    },
+    "answer": "A",
+    "rationale": "Loperamide is an opioid agonist that increases transit time by acting on intestinal muscles.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Opioid Agonists)"
+  },
+  {
+    "id": "012",
+    "part": "2",
+    "question": "A 70-year-old patient develops diarrhea after a week of antibiotic therapy. The nurse should advocate for which treatment to restore gut flora?",
+    "options": {
+      "A": "Octreotide.",
+      "B": "Probiotics.",
+      "C": "Cholestyramine.",
+      "D": "Amitriptyline."
+    },
+    "answer": "B",
+    "rationale": "Probiotics help recover from diarrhea by restoring the gut microbiome to a healthy balance after illness or antibiotic use.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Probiotics)"
+  },
+  {
+    "id": "013",
+    "part": "2",
+    "question": "Which drug is used specifically for refractory diarrhea, such as that induced by chemotherapy or neuroendocrine tumors?",
+    "options": {
+      "A": "Loperamide.",
+      "B": "Bismuth Subsalicylate.",
+      "C": "Octreotide.",
+      "D": "Activated Charcoal."
+    },
+    "answer": "C",
+    "rationale": "Octreotide is a somatostatin analogue used for refractory diarrhea and secretory diarrhea from neuroendocrine tumors.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Somatostatin-like peptides)"
+  },
+  {
+    "id": "014",
+    "part": "2",
+    "question": "A patient with Irritable Bowel Syndrome - Diarrhea variant (IBS-D) is prescribed Amitriptyline. What is the mechanism of action for this indication?",
+    "options": {
+      "A": "Binding to bile acids in the lumen.",
+      "B": "Regulation of visceral hypersensitivity and anti-cholinergic slowing of transit.",
+      "C": "Promotion of fluid and electrolyte absorption.",
+      "D": "Antibacterial effect against H. pylori."
+    },
+    "answer": "B",
+    "rationale": "Tricyclic antidepressants (TCAs) like Amitriptyline regulate visceral hypersensitivity and have anti-cholinergic effects that slow intestinal transit.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Tri-cyclic antidepressants)"
+  },
+  {
+    "id": "015",
+    "part": "2",
+    "question": "Bismuth subsalicylate is used in acute diarrhea primarily for its:",
+    "options": {
+      "A": "Opioid-like effect on motility.",
+      "B": "Anti-secretory, anti-bacterial, and anti-inflammatory properties.",
+      "C": "Ability to stimulate the enteric nervous system.",
+      "D": "High risk of causing CNS depression."
+    },
+    "answer": "B",
+    "rationale": "Bismuth subsalicylate is believed to have anti-secretory, anti-bacterial, and anti-inflammatory properties.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Bismuth)"
+  },
+  {
+    "id": "016",
+    "part": "2",
+    "question": "A patient is admitted for a suspected C. difficile infection. Which medication should be *avoided* to prevent the development of toxic megacolon?",
+    "options": {
+      "A": "Oral rehydration salts.",
+      "B": "Probiotics.",
+      "C": "Loperamide.",
+      "D": "Bismuth."
+    },
+    "answer": "C",
+    "rationale": "Slowing intestinal transit with opioid agonists like Loperamide can be dangerous in infectious diarrhea (like C. diff) as it can lead to toxic megacolon.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (First, should we stop diarrhea?)"
+  },
+  {
+    "id": "017",
+    "part": "2",
+    "question": "What is a common side effect of bismuth subsalicylate that the nurse should educate the patient about?",
+    "options": {
+      "A": "Cardiac arrhythmias.",
+      "B": "Dark or black stools.",
+      "C": "Peripheral neuropathy.",
+      "D": "Urinary retention."
+    },
+    "answer": "B",
+    "rationale": "Bismuth can cause dark/black stools, which is a benign side effect but may be confused with melena.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Bismuth)"
+  },
+  {
+    "id": "018",
+    "part": "2",
+    "question": "A patient post-cholecystectomy suffers from chronic bile-acid diarrhea. Which medication is the most appropriate treatment?",
+    "options": {
+      "A": "Loperamide.",
+      "B": "Cholestyramine.",
+      "C": "Lactulose.",
+      "D": "Senna."
+    },
+    "answer": "B",
+    "rationale": "Cholestyramine is a bile-acid sequestrant that binds bile acids in the lumen, used for bile acid diarrhea post-cholecystectomy.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Bile-acid Sequestrant)"
+  },
+  {
+    "id": "019",
+    "part": "2",
+    "question": "A nurse is reviewing the use of activated charcoal in acute diarrhea. The mechanism of action is:",
+    "options": {
+      "A": "Activation of opioid receptors.",
+      "B": "Absorption of toxins and bacteria.",
+      "C": "Inhibition of serotonin reuptake.",
+      "D": "Drawing water into the bowel via osmosis."
+    },
+    "answer": "B",
+    "rationale": "Activated charcoal acts as an intestinal absorbent, absorbing toxins and possibly bacteria.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Intestinal absorbents)"
+  },
+  {
+    "id": "020",
+    "part": "2",
+    "question": "Which medication used for diarrhea carries a \"black box warning\" for increased risk of suicidal ideation in young patients?",
+    "options": {
+      "A": "Octreotide.",
+      "B": "Amitriptyline.",
+      "C": "Diphenoxylate.",
+      "D": "Loperamide."
+    },
+    "answer": "B",
+    "rationale": "Tricyclic antidepressants like Amitriptyline have a black box warning in young patients for increased suicidal ideation.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Recap - Tri-cyclic antidepressants)"
+  },
+  {
+    "id": "021",
+    "part": "3",
+    "question": "A patient with a spinal cord injury and immobility is prescribed Macrogol. This medication is classified as:",
+    "options": {
+      "A": "A stimulant laxative.",
+      "B": "An osmotic laxative.",
+      "C": "A bulk-forming laxative.",
+      "D": "A stool surfactant."
+    },
+    "answer": "B",
+    "rationale": "Macrogol (Polyethylene glycol) is an osmotic laxative.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Choosing drugs for constipation)"
+  },
+  {
+    "id": "022",
+    "part": "3",
+    "question": "What is the primary mechanism of action for osmotic laxatives like Lactulose?",
+    "options": {
+      "A": "Stimulating the enteric nervous system to increase motility.",
+      "B": "Drawing water into the bowel lumen via osmosis to increase stool volume.",
+      "C": "Coating the stool to prevent water absorption.",
+      "D": "Distending the colon via indigestible fiber."
+    },
+    "answer": "B",
+    "rationale": "Osmotic laxatives are poorly absorbable and draw water into the lumen via osmosis, stimulating peristalsis.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Osmotic Laxatives)"
+  },
+  {
+    "id": "023",
+    "part": "3",
+    "question": "A patient takes Senna for chronic constipation. The nurse notices a \"benign brown pigmentation of the colon\" during the patient's colonoscopy. The nurse knows this is called:",
+    "options": {
+      "A": "Melanosis coli.",
+      "B": "Pseudomembranous colitis.",
+      "C": "Gastroduodenitis.",
+      "D": "Caput medusae."
+    },
+    "answer": "A",
+    "rationale": "Senna use is associated with benign brown pigmentation of the colon (Melanosis coli).",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Stimulant Laxatives)"
+  },
+  {
+    "id": "024",
+    "part": "3",
+    "question": "Which type of laxative is Psyllium (Ispaghula husk)?",
+    "options": {
+      "A": "Stimulant.",
+      "B": "Bulk-forming.",
+      "C": "Secretagogue.",
+      "D": "Stool surfactant."
+    },
+    "answer": "B",
+    "rationale": "Psyllium is an indigestible fiber used as a bulk-forming laxative.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Other laxatives)"
+  },
+  {
+    "id": "025",
+    "part": "3",
+    "question": "Lubiprostone is an \"advanced therapy\" for constipation that works by:",
+    "options": {
+      "A": "Activating serotonin 5-HT4 receptors.",
+      "B": "Modulating ion channels to enhance colonic secretion.",
+      "C": "Blocking bile acid resorption.",
+      "D": "Increasing chloride conductance."
+    },
+    "answer": "B",
+    "rationale": "Lubiprostone is a secretagogue that modulates ion channels of the epithelium to enhance secretion and transit.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (\"Advanced Therapies\")"
+  },
+  {
+    "id": "026",
+    "part": "3",
+    "question": "A patient is taking Magnesium sulfate for constipation. What is a key nursing priority for this patient?",
+    "options": {
+      "A": "Monitoring for brown colonic pigmentation.",
+      "B": "Ensuring adequate hydration.",
+      "C": "Assessing for suicidal ideation.",
+      "D": "Monitoring for extrapyramidal symptoms."
+    },
+    "answer": "B",
+    "rationale": "For osmotic laxatives, it is important to ensure adequate hydration.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Osmotic Laxatives)"
+  },
+  {
+    "id": "027",
+    "part": "3",
+    "question": "Which medication acts by blocking bile acid resorption to decrease intestinal transit time?",
+    "options": {
+      "A": "Prucalopride.",
+      "B": "Eloxibat.",
+      "C": "Bisacodyl.",
+      "D": "Mineral oil."
+    },
+    "answer": "B",
+    "rationale": "Eloxibat is an Ileal Bile Acid Transport Inhibitor that blocks bile acid resorption.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (\"Advanced Therapies\")"
+  },
+  {
+    "id": "028",
+    "part": "3",
+    "question": "A patient on morphine for pain control has not had a bowel movement in 3 days. Which stimulant laxative might be added to their regimen?",
+    "options": {
+      "A": "Lactulose.",
+      "B": "Bisacodyl.",
+      "C": "Psyllium.",
+      "D": "Macrogol."
+    },
+    "answer": "B",
+    "rationale": "Bisacodyl and Senna are examples of stimulant laxatives.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Choosing drugs for constipation)"
+  },
+  {
+    "id": "029",
+    "part": "3",
+    "question": "Prucalopride is used for functional constipation by:",
+    "options": {
+      "A": "Activating serotonin 5-HT4 receptors to stimulate motility.",
+      "B": "Coating the ulcer pit.",
+      "C": "Drawing water into the bowel.",
+      "D": "Enhancing the effect of prostaglandins."
+    },
+    "answer": "A",
+    "rationale": "Prucalopride is a serotoninergic agonist that activates 5-HT4 receptors to increase motility.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (\"Advanced Therapies\")"
+  },
+  {
+    "id": "030",
+    "part": "3",
+    "question": "Which laxative class is typically considered the first-line pharmacologic treatment after diet and lifestyle reviews?",
+    "options": {
+      "A": "Secretagogues.",
+      "B": "Osmotic laxatives.",
+      "C": "Serotoninergic agonists.",
+      "D": "Stool surfactants."
+    },
+    "answer": "B",
+    "rationale": "Stimulant laxatives are often second-line after osmotic laxatives.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf (Stimulant Laxatives/Algorithm)"
+  },
+  {
+    "id": "031",
+    "part": "4",
+    "question": "During an abdominal assessment of a patient with suspected mechanical intestinal obstruction, the nurse expects to hear:",
+    "options": {
+      "A": "Absent bowel sounds throughout.",
+      "B": "High-pitched, tinkling bowel sounds.",
+      "C": "Normal normoactive bowel sounds.",
+      "D": "Bruits over the epigastric area."
+    },
+    "answer": "B",
+    "rationale": "High-pitched, tinkling sounds are associated with mechanical obstruction.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Physical examination)"
+  },
+  {
+    "id": "032",
+    "part": "4",
+    "question": "A patient with an intestinal obstruction is experiencing severe vomiting. Which acid-base/electrolyte imbalance is the nurse most concerned about?",
+    "options": {
+      "A": "Hyperkalemia.",
+      "B": "Metabolic acidosis.",
+      "C": "Metabolic alkalosis and electrolyte loss.",
+      "D": "Respiratory acidosis."
+    },
+    "answer": "C",
+    "rationale": "Interrupted absorption and vomiting in obstruction lead to fluid and electrolyte imbalances, typically metabolic alkalosis.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Intestinal Obstruction)"
+  },
+  {
+    "id": "033",
+    "part": "4",
+    "question": "Which nursing intervention is a priority for a patient with a confirmed intestinal obstruction?",
+    "options": {
+      "A": "High-fiber diet to promote passage.",
+      "B": "Administration of bulk-forming laxatives.",
+      "C": "Maintaining NPO status and inserting a nasogastric (NG) tube.",
+      "D": "Encouraging vigorous physical activity."
+    },
+    "answer": "C",
+    "rationale": "Management includes NPO status and NG suction to decompress the stomach.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Medical treatment/Management)"
+  },
+  {
+    "id": "034",
+    "part": "4",
+    "question": "A patient with intestinal obstruction has a nasogastric tube. What type of suction is typically ordered for decompression?",
+    "options": {
+      "A": "Continuous high suction.",
+      "B": "Low intermittent suction.",
+      "C": "No suction, gravity drainage only.",
+      "D": "High intermittent suction."
+    },
+    "answer": "B",
+    "rationale": "NG tubes for obstruction are typically attached to low intermittent suction.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Management of Care)"
+  },
+  {
+    "id": "035",
+    "part": "4",
+    "question": "The nurse is educating a patient post-obstruction about dietary changes. Which advice is correct?",
+    "options": {
+      "A": "Eat three large meals a day.",
+      "B": "Avoid drinking water with meals.",
+      "C": "Eat slowly and chew each bite well.",
+      "D": "Increase intake of gas-producing foods."
+    },
+    "answer": "C",
+    "rationale": "Patient education includes eating slowly, chewing well, and having several smaller meals.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Patient education)"
+  },
+  {
+    "id": "036",
+    "part": "4",
+    "question": "A patient with sigmoid colon obstruction presents with \"decreased caliber of stools.\" This finding is most likely associated with:",
+    "options": {
+      "A": "Peptic ulcer disease.",
+      "B": "Gallstones.",
+      "C": "Colorectal cancer (adenocarcinoma).",
+      "D": "Hepatitis B carrier status."
+    },
+    "answer": "C",
+    "rationale": "Tan Mei Ling's case shows blood-streaked, decreased caliber stools associated with a sigmoid colon adenocarcinoma.",
+    "source": "Case A for PPNP Tutorial.pdf (Synopsis/Diagnostic investigations)"
+  },
+  {
+    "id": "037",
+    "part": "4",
+    "question": "In mechanical obstruction, what occurs to the bowel sounds *below* the site of obstruction?",
+    "options": {
+      "A": "They become high-pitched.",
+      "B": "They are absent.",
+      "C": "They remain normoactive.",
+      "D": "They exhibit bruits."
+    },
+    "answer": "B",
+    "rationale": "Bowel sounds are absent below the obstruction and hyperactive/tinkering above.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Physical examination)"
+  },
+  {
+    "id": "038",
+    "part": "4",
+    "question": "What is a common surgical procedure for a distal sigmoid colon mass causing obstruction?",
+    "options": {
+      "A": "Gastrectomy.",
+      "B": "Sigmoidectomy or Left Hemicolectomy.",
+      "C": "Cholecystectomy.",
+      "D": "Liver transplant."
+    },
+    "answer": "B",
+    "rationale": "Case A mentions a sigmoid mass requiring potential resection (sigmoidectomy or left hemicolectomy).",
+    "source": "Case A for PPNP Tutorial.pdf (Barium enema/Sigmoidoscopy)"
+  },
+  {
+    "id": "039",
+    "part": "4",
+    "question": "The nurse monitors for which complication of intestinal obstruction that presents with a rigid, board-like abdomen and tachycardia?",
+    "options": {
+      "A": "Gastritis.",
+      "B": "Peritonitis (due to perforation).",
+      "C": "Hepatic encephalopathy.",
+      "D": "Jaundice."
+    },
+    "answer": "B",
+    "rationale": "Perforation leading to peritonitis is a major complication requiring emergent surgery.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (PUD symptoms - similar signs in obstruction complications)"
+  },
+  {
+    "id": "040",
+    "part": "4",
+    "question": "Which medication might be used specifically for postoperative ileus (functional obstruction) to antagonize peripheral opioid receptors?",
+    "options": {
+      "A": "Alvimopan.",
+      "B": "Loperamide.",
+      "C": "Metoclopramide.",
+      "D": "Senna."
+    },
+    "answer": "A",
+    "rationale": "Alvimopan is listed as a treatment for relieving symptoms in intestinal obstruction/ileus.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Medical treatment)"
+  },
+  {
+    "id": "041",
+    "part": "5",
+    "question": "Tan Mei Ling is diagnosed with a duodenal ulcer and H. pylori. Which combination of drugs is part of the standard PPI-based triple therapy?",
+    "options": {
+      "A": "Esomeprazole, Amoxicillin, and Clarithromycin.",
+      "B": "Omeprazole, Bismuth, and Tetracycline.",
+      "C": "Famotidine, Metronidazole, and Amoxicillin.",
+      "D": "Esomeprazole, Sucralfate, and Misoprostol."
+    },
+    "answer": "A",
+    "rationale": "Triple therapy includes a PPI, Amoxicillin, and Clarithromycin.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf (First line Helicobacter pylori therapy)"
+  },
+  {
+    "id": "042",
+    "part": "5",
+    "question": "A patient with PUD describes pain as \"gnawing\" and occurring 2 to 3 hours after meals. This pain pattern is characteristic of:",
+    "options": {
+      "A": "Gastric ulcers.",
+      "B": "Duodenal ulcers.",
+      "C": "Cholecystitis.",
+      "D": "Hepatitis."
+    },
+    "answer": "B",
+    "rationale": "Duodenal ulcer pain typically occurs 2-3 hours after a meal and at night, whereas gastric ulcer pain occurs 15-30 minutes after a meal.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (PUD common symptoms)"
+  },
+  {
+    "id": "043",
+    "part": "5",
+    "question": "What is the purpose of the \"C-Urea Breath Test\"?",
+    "options": {
+      "A": "To measure gastric acid secretion.",
+      "B": "To detect the presence of Helicobacter pylori.",
+      "C": "To assess for colon cancer.",
+      "D": "To monitor liver enzyme levels."
+    },
+    "answer": "B",
+    "rationale": "The urea breath test is used to identify H. pylori infection.",
+    "source": "PP Tut 1 NUR2125 PP Tutorial 1.pdf (Principle of C-Urea Breath Test)"
+  },
+  {
+    "id": "044",
+    "part": "5",
+    "question": "Which aggressive factor is the leading cause of PUD in patients who do *not* use NSAIDs?",
+    "options": {
+      "A": "Smoking.",
+      "B": "Alcohol.",
+      "C": "Helicobacter pylori.",
+      "D": "Stress."
+    },
+    "answer": "C",
+    "rationale": "H. pylori is a primary aggressive factor and cause of peptic ulcers.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf (Pathophysiology)"
+  },
+  {
+    "id": "045",
+    "part": "5",
+    "question": "The nurse is administering Sucralfate. When is the best time to give this medication?",
+    "options": {
+      "A": "With meals.",
+      "B": "Immediately after a meal.",
+      "C": "On an empty stomach, usually 1 hour before meals.",
+      "D": "At bedtime only."
+    },
+    "answer": "C",
+    "rationale": "Cytoprotective agents like Sucralfate are often given before meals to coat the ulcer.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Brainstorming: Implementation)"
+  },
+  {
+    "id": "046",
+    "part": "5",
+    "question": "A patient with PUD and a penicillin allergy needs H. pylori eradication. Which drug can replace Amoxicillin in the triple therapy?",
+    "options": {
+      "A": "Tetracycline.",
+      "B": "Metronidazole.",
+      "C": "Clarithromycin.",
+      "D": "Rifabutin."
+    },
+    "answer": "B",
+    "rationale": "Metronidazole may be used in place of Amoxicillin for patients with a penicillin allergy.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf (First line Helicobacter pylori therapy)"
+  },
+  {
+    "id": "047",
+    "part": "5",
+    "question": "Which PPI is identified as having the *highest* relative potency?",
+    "options": {
+      "A": "Omeprazole.",
+      "B": "Esomeprazole.",
+      "C": "Rabeprazole.",
+      "D": "Pantoprazole."
+    },
+    "answer": "C",
+    "rationale": "Rabeprazole (20mg) has a relative potency of 36, the highest on the list provided.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf (Proton Pump Inhibitors table)"
+  },
+  {
+    "id": "048",
+    "part": "5",
+    "question": "A patient with a history of NSAID-induced ulcers requires ongoing NSAID therapy for arthritis. Which medication is specifically indicated to prevent these ulcers?",
+    "options": {
+      "A": "Famotidine.",
+      "B": "Misoprostol.",
+      "C": "Antacids.",
+      "D": "Probiotics."
+    },
+    "answer": "B",
+    "rationale": "Misoprostol is used for the prevention of NSAID-induced ulcers.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Sorting facts)"
+  },
+  {
+    "id": "049",
+    "part": "5",
+    "question": "What is a known side effect of long-term PPI use related to nutrition?",
+    "options": {
+      "A": "Hypercalcemia.",
+      "B": "Hypomagnesemia.",
+      "C": "Hyperkalemia.",
+      "D": "Vitamin C deficiency."
+    },
+    "answer": "B",
+    "rationale": "Side effects of PPIs include nutritional deficiencies and hypomagnesemia.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf (PPI Side Effects)"
+  },
+  {
+    "id": "050",
+    "part": "5",
+    "question": "Which medication should the nurse *avoid* administering to a patient with a bleeding peptic ulcer?",
+    "options": {
+      "A": "Esomeprazole.",
+      "B": "Misoprostol.",
+      "C": "NSAIDs (e.g., Diclofenac).",
+      "D": "Antacids."
+    },
+    "answer": "C",
+    "rationale": "NSAIDs inhibit prostaglandin synthesis and further irritate the GI tract, worsening ulcers.",
+    "source": "NP Tut 2 NUR2125 Tutorial 1 (Case A).pdf (Implementation - Pain relief)"
+  },
+  {
+    "id": "051",
+    "part": "5",
+    "question": "Which test is considered the \"gold standard\" for diagnosing PUD and identifying H. pylori via biopsy?",
+    "options": {
+      "A": "Barium swallow.",
+      "B": "Oesophagogastroduodenoscopy (OGD/EGD).",
+      "C": "Abdominal ultrasound.",
+      "D": "CT scan."
+    },
+    "answer": "B",
+    "rationale": "OGD with biopsy revealed Tan Mei Ling's ulcer and confirmed H. pylori.",
+    "source": "Case A for PPNP Tutorial.pdf (Diagnostic investigations)"
+  },
+  {
+    "id": "052",
+    "part": "5",
+    "question": "A patient is taking Aluminum Hydroxide antacids. The nurse should monitor for which side effect?",
+    "options": {
+      "A": "Diarrhea.",
+      "B": "Constipation.",
+      "C": "Metallic taste.",
+      "D": "Darkened tongue."
+    },
+    "answer": "B",
+    "rationale": "Aluminum-based antacids are non-absorbable and commonly cause constipation.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Comparison between antacid active compounds)"
+  },
+  {
+    "id": "053",
+    "part": "5",
+    "question": "The nurse educating a patient on PPIs should warn them about interactions with which common anticoagulant?",
+    "options": {
+      "A": "Heparin.",
+      "B": "Clopidogrel.",
+      "C": "Enoxaparin.",
+      "D": "Aspirin."
+    },
+    "answer": "B",
+    "rationale": "PPIs have known drug-drug interactions with Clopidogrel.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf (PPI Drug-Drug Interactions)"
+  },
+  {
+    "id": "054",
+    "part": "5",
+    "question": "In the quadruple therapy for H. pylori, which of the following is included?",
+    "options": {
+      "A": "Esomeprazole, Amoxicillin, Clarithromycin, and Bismuth.",
+      "B": "Omeprazole, Bismuth, Metronidazole, and Tetracycline.",
+      "C": "Famotidine, Bismuth, Metronidazole, and Amoxicillin.",
+      "D": "Vonoprazan, Amoxicillin, and Clarithromycin."
+    },
+    "answer": "B",
+    "rationale": "Quadruple therapy consists of a PPI, Bismuth subsalicylate, Metronidazole, and Tetracycline.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf (First line Helicobacter pylori therapy)"
+  },
+  {
+    "id": "055",
+    "part": "5",
+    "question": "Which cytoprotective agent carries a risk of \"abortion\" and is contraindicated in pregnancy?",
+    "options": {
+      "A": "Sucralfate.",
+      "B": "Bismuth.",
+      "C": "Misoprostol.",
+      "D": "Antacids."
+    },
+    "answer": "C",
+    "rationale": "Misoprostol is associated with an abortion risk.",
+    "source": "NUR2125 Interactive session 11 Feb 2026.pdf (Sorting facts)"
+  },
+  {
+    "id": "056",
+    "part": "6",
+    "question": "The nurse performs a physical exam on a patient with suspected cholecystitis. Which finding is pathognomonic?",
+    "options": {
+      "A": "Blumberg's sign.",
+      "B": "Murphy's sign.",
+      "C": "Rovsing's sign.",
+      "D": "Grey Turner's sign."
+    },
+    "answer": "B",
+    "rationale": "A positive Murphy sign is a clinical manifestation of acute cholecystitis.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Cholecystitis)"
+  },
+  {
+    "id": "057",
+    "part": "6",
+    "question": "A patient with cholecystitis reports pain that radiates to the:",
+    "options": {
+      "A": "Left lower quadrant.",
+      "B": "Right shoulder.",
+      "C": "Epigastric area only.",
+      "D": "Periumbilical area."
+    },
+    "answer": "B",
+    "rationale": "Chronic cholecystitis pain may be referred to the right shoulder.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Cholecystitis)"
+  },
+  {
+    "id": "058",
+    "part": "6",
+    "question": "What is the primary dietary recommendation for a patient with a history of gallstones?",
+    "options": {
+      "A": "High-fat diet to stimulate bile flow.",
+      "B": "Low-fat, low-cholesterol diet.",
+      "C": "High-protein, low-carbohydrate diet.",
+      "D": "Clear liquid diet only."
+    },
+    "answer": "B",
+    "rationale": "Patients with cholecystitis have an intolerance for fatty foods; dietary modifications include refined carbs and fat-free options like skim milk.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Discharge plans of Cholecystitis)"
+  },
+  {
+    "id": "059",
+    "part": "6",
+    "question": "Following a laparoscopic cholecystectomy, a patient complains of \"shoulder pain.\" The nurse understands this is likely due to:",
+    "options": {
+      "A": "Myocardial infarction.",
+      "B": "Lingering CO2 irritating the phrenic nerve.",
+      "C": "Surgical positioning injury.",
+      "D": "Inadequate post-operative analgesia."
+    },
+    "answer": "B",
+    "rationale": "CO2 used during laparoscopy can linger and irritate the phrenic nerve, causing referred shoulder pain.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Post Laparoscopic cholecystectomy)"
+  },
+  {
+    "id": "060",
+    "part": "6",
+    "question": "To relieve the shoulder pain caused by CO2 after laparoscopy, the nurse should assist the patient into which position?",
+    "options": {
+      "A": "High-Fowler's.",
+      "B": "Sims position.",
+      "C": "Prone.",
+      "D": "Trendelenburg."
+    },
+    "answer": "B",
+    "rationale": "Assisting the patient into the Sims position helps relieve the irritation caused by lingering CO2.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Post Laparoscopic cholecystectomy)"
+  },
+  {
+    "id": "061",
+    "part": "6",
+    "question": "Which diagnostic test is commonly used to visualize the biliary tree and potentially remove stones?",
+    "options": {
+      "A": "Barium enema.",
+      "B": "Endoscopic Retrograde Cholangiopancreatography (ERCP).",
+      "C": "Chest X-ray.",
+      "D": "ECG."
+    },
+    "answer": "B",
+    "rationale": "ERCP is used for both diagnosis and treatment (stone removal) in hepatobiliary disorders.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Recap - Treatment)"
+  },
+  {
+    "id": "062",
+    "part": "6",
+    "question": "A patient with cholecystitis has jaundice. This indicates that:",
+    "options": {
+      "A": "The gallbladder has ruptured.",
+      "B": "A gallstone is blocking the common bile duct.",
+      "C": "The patient has developed Hepatitis A.",
+      "D": "The patient is experiencing an allergic reaction to bile salts."
+    },
+    "answer": "B",
+    "rationale": "Gallstones blocking the common bile duct cause biliary duct obstruction and subsequent jaundice.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Biliary duct obstruction)"
+  },
+  {
+    "id": "063",
+    "part": "6",
+    "question": "Which antibiotic generation is typically used empirically for hepatobiliary infections like cholecystitis?",
+    "options": {
+      "A": "1st generation cephalosporins.",
+      "B": "3rd generation cephalosporins (e.g., Ceftriaxone).",
+      "C": "Macrolides.",
+      "D": "Tetracyclines."
+    },
+    "answer": "B",
+    "rationale": "3rd generation cephalosporins like Ceftriaxone are used due to their broader coverage of gram-negative bacteria common in these infections.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Recap - Cephalosporins)"
+  },
+  {
+    "id": "064",
+    "part": "6",
+    "question": "In addition to Ceftriaxone, Metronidazole is often added to the treatment of cholecystitis to cover:",
+    "options": {
+      "A": "Gram-positive aerobes.",
+      "B": "Anaerobes.",
+      "C": "Viruses.",
+      "D": "Fungi."
+    },
+    "answer": "B",
+    "rationale": "Metronidazole is used for anaerobic bacterial coverage, which cephalosporins do not cover well.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Metronidazole)"
+  },
+  {
+    "id": "065",
+    "part": "6",
+    "question": "After a laparoscopic cholecystectomy, the patient should be instructed to avoid lifting more than:",
+    "options": {
+      "A": "5 lbs.",
+      "B": "10 lbs.",
+      "C": "20 lbs.",
+      "D": "50 lbs."
+    },
+    "answer": "B",
+    "rationale": "Discharge instructions include avoiding lifting >10 lbs for the first few weeks.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Post Laparoscopic cholecystectomy)"
+  },
+  {
+    "id": "066",
+    "part": "7",
+    "question": "A patient's lab results show HBsAg (+) and Anti-HBc IgM (+). The nurse interprets this as:",
+    "options": {
+      "A": "Chronic Hepatitis B.",
+      "B": "Acute Hepatitis B or reactivation.",
+      "C": "Immunity due to vaccination.",
+      "D": "Past infection with immunity."
+    },
+    "answer": "B",
+    "rationale": "Positive HBsAg and Anti-HBc IgM indicate an acute infection or reactivation.",
+    "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf (Interpretation of HBV Serology)"
+  },
+  {
+    "id": "067",
+    "part": "7",
+    "question": "Hepatitis A is primarily transmitted through the:",
+    "options": {
+      "A": "Blood-borne route.",
+      "B": "Fecal-oral route.",
+      "C": "Vertical transmission (mother to baby).",
+      "D": "Sexual contact only."
+    },
+    "answer": "B",
+    "rationale": "Hepatitis A is transmitted via the fecal-oral route, often through contaminated food or water.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Causes of Hepatitis A)"
+  },
+  {
+    "id": "068",
+    "part": "7",
+    "question": "Which hepatitis virus requires the presence of Hepatitis B to cause an infection?",
+    "options": {
+      "A": "Hepatitis A.",
+      "B": "Hepatitis C.",
+      "C": "Hepatitis D.",
+      "D": "Hepatitis E."
+    },
+    "answer": "C",
+    "rationale": "Hepatitis D cannot cause infection without the Hepatitis B virus.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Causes of Hepatitis B, C, D)"
+  },
+  {
+    "id": "069",
+    "part": "7",
+    "question": "A nurse is teaching a patient about Hepatitis B. Which of the following is a known risk factor?",
+    "options": {
+      "A": "Eating at daycare centers.",
+      "B": "Sharing toothbrushes or razors.",
+      "C": "Poor access to clean water.",
+      "D": "Shellfish consumption."
+    },
+    "answer": "B",
+    "rationale": "HBV is spread through blood and body fluids, including sharing personal items like razors and toothbrushes.",
+    "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf (Hepatitis B Transmission)"
+  },
+  {
+    "id": "070",
+    "part": "7",
+    "question": "What defines \"Chronic Hepatitis\" as opposed to \"Acute Hepatitis\"?",
+    "options": {
+      "A": "Symptoms lasting more than 2 weeks.",
+      "B": "Liver damage lasting more than 6 months.",
+      "C": "Presence of jaundice.",
+      "D": "Elevation of ALT levels."
+    },
+    "answer": "B",
+    "rationale": "Chronic hepatitis involves progressive damage and lasts > 6 months.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Acute vs Chronic)"
+  },
+  {
+    "id": "071",
+    "part": "7",
+    "question": "Which medication is a nucleoside analogue used to treat Chronic Hepatitis B?",
+    "options": {
+      "A": "Sofosbuvir.",
+      "B": "Tenofovir.",
+      "C": "Ribavirin.",
+      "D": "Glecaprevir."
+    },
+    "answer": "B",
+    "rationale": "Tenofovir and Entecavir are current nucleoside analogue therapies for HBV.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Hepatitis B Summary)"
+  },
+  {
+    "id": "072",
+    "part": "7",
+    "question": "A patient with Hepatitis B has a viral load of 2,500 IU/mL, is HBsAg (+), and HBeAg (-). This pattern suggests:",
+    "options": {
+      "A": "Acute infection.",
+      "B": "HBeAg-negative chronic hepatitis B.",
+      "C": "Successful vaccination.",
+      "D": "Recovery phase."
+    },
+    "answer": "B",
+    "rationale": "Being HBeAg negative with detectable HBV DNA suggests the HBeAg-negative replicative phase (immune-active chronic Hep B).",
+    "source": "Case B for PPNP2 Tutorial-3.pdf (Liver Function Tests)"
+  },
+  {
+    "id": "073",
+    "part": "7",
+    "question": "What is a common adverse effect of the medication Entecavir?",
+    "options": {
+      "A": "Renal impairment.",
+      "B": "Lactic acidosis.",
+      "C": "Osteoporosis.",
+      "D": "Ototoxicity."
+    },
+    "answer": "B",
+    "rationale": "Entecavir has rare reports of lactic acidosis.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Hepatitis B Summary)"
+  },
+  {
+    "id": "074",
+    "part": "7",
+    "question": "Which type of Hepatitis is commonly transmitted through contaminated water in developing areas, similar to Hep A?",
+    "options": {
+      "A": "Hepatitis B.",
+      "B": "Hepatitis C.",
+      "C": "Hepatitis E.",
+      "D": "Hepatitis D."
+    },
+    "answer": "C",
+    "rationale": "Hepatitis E is transmitted through the fecal-oral route, typically via contaminated water.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Causes of Hepatitis E)"
+  },
+  {
+    "id": "075",
+    "part": "7",
+    "question": "A patient with chronic hepatitis develops \"Hepatic Encephalopathy.\" This is caused by the accumulation of:",
+    "options": {
+      "A": "Bilirubin.",
+      "B": "Ammonia.",
+      "C": "Albumin.",
+      "D": "Sodium."
+    },
+    "answer": "B",
+    "rationale": "Ammonia buildup in the blood can cross the blood-brain barrier and impair CNS function, leading to HE.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Acute vs Chronic)"
+  },
+  {
+    "id": "076",
+    "part": "7",
+    "question": "What clinical manifestation of hepatitis is associated with decreased albumin production?",
+    "options": {
+      "A": "Jaundice.",
+      "B": "Ascites.",
+      "C": "Easy bruising.",
+      "D": "Dark urine."
+    },
+    "answer": "B",
+    "rationale": "Ascites and peripheral edema result from hypoalbuminemia (low albumin).",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Clinical Manifestations - Chronic)"
+  },
+  {
+    "id": "077",
+    "part": "7",
+    "question": "During the assessment of a hepatitis patient, the nurse notes \"scleral icterus.\" This is a sign of:",
+    "options": {
+      "A": "Anemia.",
+      "B": "Jaundice.",
+      "C": "Infection.",
+      "D": "Dehydration."
+    },
+    "answer": "B",
+    "rationale": "Scleral icterus (yellowing of the eyes) is a sign of jaundice.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Management of Care)"
+  },
+  {
+    "id": "078",
+    "part": "7",
+    "question": "A patient with Hepatitis B should be educated to avoid:",
+    "options": {
+      "A": "High-calorie foods.",
+      "B": "Alcohol.",
+      "C": "Small, frequent meals.",
+      "D": "Fluids."
+    },
+    "answer": "B",
+    "rationale": "Alcohol has hepatotoxic effects and should be strictly avoided in hepatitis patients.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Client & Family Teaching)"
+  },
+  {
+    "id": "079",
+    "part": "7",
+    "question": "Which hepatitis virus currently has a \"curative\" treatment with high success rates using combinations like Sofosbuvir/velpatasvir?",
+    "options": {
+      "A": "Hepatitis A.",
+      "B": "Hepatitis B.",
+      "C": "Hepatitis C.",
+      "D": "Hepatitis E."
+    },
+    "answer": "C",
+    "rationale": "Hepatitis C treatment is curative with a high success rate.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Hepatitis C Summary)"
+  },
+  {
+    "id": "080",
+    "part": "7",
+    "question": "What is \"Fulminant Hepatitis\"?",
+    "options": {
+      "A": "A mild, self-limiting infection.",
+      "B": "A life-threatening condition with quick and severe liver deterioration.",
+      "C": "A type of hepatitis caused by a genetic mutation.",
+      "D": "An infection that only occurs in children."
+    },
+    "answer": "B",
+    "rationale": "Fulminant hepatitis is a complication of acute hepatitis where the liver deteriorates rapidly.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Re-cap: Acute vs Chronic)"
+  },
+  {
+    "id": "081",
+    "part": "8",
+    "question": "What is the first-line medication for managing ascites in a patient with cirrhosis?",
+    "options": {
+      "A": "Frusemide.",
+      "B": "Spironolactone.",
+      "C": "Propranolol.",
+      "D": "Lactulose."
+    },
+    "answer": "B",
+    "rationale": "Spironolactone (an aldosterone antagonist) is the key agent and first line for ascites because it targets hyperaldosteronism.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Ascites)"
+  },
+  {
+    "id": "082",
+    "part": "8",
+    "question": "A patient with cirrhosis has a \"Child-Pugh Score\" of 11. The nurse understands this indicates:",
+    "options": {
+      "A": "Mild (Class A) disease.",
+      "B": "Moderate (Class B) disease.",
+      "C": "Severe (Class C) decompensated disease.",
+      "D": "Full recovery."
+    },
+    "answer": "C",
+    "rationale": "Class C (10-15 points) indicates decompensated disease and a higher mortality risk.",
+    "source": "Case B for PPNP2 Tutorial-3.pdf (Child's classification)"
+  },
+  {
+    "id": "083",
+    "part": "8",
+    "question": "The nurse assesses a cirrhosis patient for \"Asterixis.\" How is this performed?",
+    "options": {
+      "A": "Checking the eyes for yellowing.",
+      "B": "Asking the patient to extend their arms and dorsiflex their wrists.",
+      "C": "Palpating for a fluid wave in the abdomen.",
+      "D": "Listening for high-pitched bowel sounds."
+    },
+    "answer": "B",
+    "rationale": "Asterixis is a motor function problem (coordination) found in hepatic encephalopathy, tested by arm extension and wrist dorsiflexion.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Hepatic Encephalopathy)"
+  },
+  {
+    "id": "084",
+    "part": "8",
+    "question": "To reduce ammonia levels in a patient with hepatic encephalopathy, which medication is most commonly used?",
+    "options": {
+      "A": "Rifaximin.",
+      "B": "Lactulose.",
+      "C": "Carvedilol.",
+      "D": "Spironolactone."
+    },
+    "answer": "B",
+    "rationale": "Lactulose is an osmotic laxative that lowers gut pH to trap ammonia as non-absorbable ammonium.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Drugs for HE)"
+  },
+  {
+    "id": "085",
+    "part": "8",
+    "question": "A patient with cirrhosis and portal hypertension is prescribed Propranolol. The goal of this therapy is:",
+    "options": {
+      "A": "To treat hypertension.",
+      "B": "To reduce portal pressure and prevent variceal bleeding.",
+      "C": "To stimulate the immune system.",
+      "D": "To increase cardiac output."
+    },
+    "answer": "B",
+    "rationale": "Non-selective beta-blockers like Propranolol reduce portal pressure through splanchnic vasoconstriction.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Non-selective Beta Blockers)"
+  },
+  {
+    "id": "086",
+    "part": "8",
+    "question": "Why should NSAIDs (like Ibuprofen) be strictly *avoided* in patients with cirrhosis?",
+    "options": {
+      "A": "They cause jaundice.",
+      "B": "They increase the risk of hepatorenal syndrome and renal impairment.",
+      "C": "They interfere with lactulose.",
+      "D": "They cause hyperkalemia."
+    },
+    "answer": "B",
+    "rationale": "NSAIDs increase the risk of renal impairment and hepatorenal syndrome in cirrhotic patients.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Drugs to Avoid: NSAIDs)"
+  },
+  {
+    "id": "087",
+    "part": "8",
+    "question": "The nurse is monitoring a patient with liver failure who took an overdose of paracetamol. Which antidote should be administered?",
+    "options": {
+      "A": "Vitamin K.",
+      "B": "N-acetylcysteine (NAC).",
+      "C": "Lactulose.",
+      "D": "Protamine sulfate."
+    },
+    "answer": "B",
+    "rationale": "N-acetylcysteine is the antidote for paracetamol overdose, stimulating glutathione production to detoxify NAPQI.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (N-acetylcysteine)"
+  },
+  {
+    "id": "088",
+    "part": "8",
+    "question": "In a patient with cirrhosis, what does \"Caput Medusae\" represent?",
+    "options": {
+      "A": "Swollen lymph nodes.",
+      "B": "Abdominal wall vascular collaterals.",
+      "C": "Spider-like lesions on the face.",
+      "D": "Fluid in the peritoneal cavity."
+    },
+    "answer": "B",
+    "rationale": "Caput medusae refers to abdominal wall vascular collaterals, a physical finding in cirrhosis.",
+    "source": "Cirrhosis and Chronic liver failure.pdf (Table 2)"
+  },
+  {
+    "id": "089",
+    "part": "8",
+    "question": "What is the \"Gold Standard\" for diagnosing cirrhosis?",
+    "options": {
+      "A": "Abdominal Ultrasound.",
+      "B": "CT Scan.",
+      "C": "Liver Biopsy.",
+      "D": "Liver Function Tests."
+    },
+    "answer": "C",
+    "rationale": "Liver biopsy is the gold standard for the diagnosis of liver cirrhosis.",
+    "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf (Why was ultrasound done?)"
+  },
+  {
+    "id": "090",
+    "part": "8",
+    "question": "Which complication of cirrhosis is characterized by the accumulation of fluid in the peritoneal cavity?",
+    "options": {
+      "A": "Hepatic Encephalopathy.",
+      "B": "Ascites.",
+      "C": "Variceal bleeding.",
+      "D": "Splenomegaly."
+    },
+    "answer": "B",
+    "rationale": "Ascites is the accumulation of fluid in the peritoneal cavity due to portal hypertension and low albumin.",
+    "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf (Portal circulation/Ascites)"
+  },
+  {
+    "id": "091",
+    "part": "8",
+    "question": "The nurse knows that a patient with cirrhosis has a \"bleeding tendency\" primarily because:",
+    "options": {
+      "A": "Of a vitamin C deficiency.",
+      "B": "The liver has a decreased synthesis of clotting factors.",
+      "C": "Of high ammonia levels.",
+      "D": "Of high portal pressure."
+    },
+    "answer": "B",
+    "rationale": "Liver failure leads to decreased production of clotting factors, increasing the risk of bleeding.",
+    "source": "PP Tutorial 2 w questions - Ihsan.pdf (Liver failure - disorders of synthesis)"
+  },
+  {
+    "id": "092",
+    "part": "8",
+    "question": "A patient with cirrhosis has low serum albumin (2.0 g/dL). This causes fluid to move out of the blood vessels because of:",
+    "options": {
+      "A": "Increased hydrostatic pressure.",
+      "B": "Decreased colloidal osmotic (oncotic) pressure.",
+      "C": "Increased sympathetic activity.",
+      "D": "Decreased sodium retention."
+    },
+    "answer": "B",
+    "rationale": "Albumin provides oncotic pressure that keeps fluid inside blood vessels; low levels allow fluid to leak into tissues.",
+    "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf (Ascites)"
+  },
+  {
+    "id": "093",
+    "part": "8",
+    "question": "What is the \"MARS\" therapy used for in liver failure?",
+    "options": {
+      "A": "It is a type of liver transplant.",
+      "B": "It is an advanced liver support system that cleans the blood of toxins.",
+      "C": "It is a surgical procedure to shunt blood.",
+      "D": "It is a diagnostic imaging tool."
+    },
+    "answer": "B",
+    "rationale": "The Molecular Adsorbent Recirculating System (MARS) is a bridging therapy that cleans the blood of toxins.",
+    "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf (MARS)"
+  },
+  {
+    "id": "094",
+    "part": "8",
+    "question": "A nurse monitoring a patient with cirrhosis notes \"handwriting becomes worse.\" This is an indicator of:",
+    "options": {
+      "A": "Worsening jaundice.",
+      "B": "Increasing ammonia levels and hepatic encephalopathy.",
+      "C": "Vitamin B12 deficiency.",
+      "D": "Progression of ascites."
+    },
+    "answer": "B",
+    "rationale": "Handwriting changes are used to monitor the progression of hepatic encephalopathy and ammonia levels.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Nursing management of HE)"
+  },
+  {
+    "id": "095",
+    "part": "8",
+    "question": "Which cardiovascular medication is used to reduce the risk of bleeding from esophageal varices?",
+    "options": {
+      "A": "Amlodipine.",
+      "B": "Carvedilol.",
+      "C": "Lisinopril.",
+      "D": "Digoxin."
+    },
+    "answer": "B",
+    "rationale": "Non-selective beta-blockers like Carvedilol are used for primary or secondary prophylaxis of variceal bleeding.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Variceal Bleeding)"
+  },
+  {
+    "id": "096",
+    "part": "8",
+    "question": "A patient with cirrhosis has pruritus (itching). Which nursing intervention is appropriate?",
+    "options": {
+      "A": "Using strong detergents to clean linens.",
+      "B": "Applying moisturizing bath/emollients and keeping the room cool.",
+      "C": "Encouraging the patient to scratch with fingernails.",
+      "D": "Limiting fluid intake to 500 mL/day."
+    },
+    "answer": "B",
+    "rationale": "Comfort measures for pruritus include applying emollients, cool compresses, and avoiding skin irritants like strong soaps.",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Client & Family Teaching - Pruritus)"
+  },
+  {
+    "id": "097",
+    "part": "8",
+    "question": "For a patient with acute variceal bleeding, which medication is given as a continuous infusion to cause splanchnic vasoconstriction?",
+    "options": {
+      "A": "Propranolol.",
+      "B": "Somatostatin (or Octreotide).",
+      "C": "Vitamin K.",
+      "D": "NAC."
+    },
+    "answer": "B",
+    "rationale": "Somatostatin causes splanchnic vasoconstriction to decrease blood flow to varices during acute bleeding.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Variceal Bleeding - Somatostatin)"
+  },
+  {
+    "id": "098",
+    "part": "8",
+    "question": "Why is paracetamol (acetaminophen) restricted to < 2g per day in patients with advanced cirrhosis?",
+    "options": {
+      "A": "It causes constipation.",
+      "B": "It carries a risk of toxicity due to impaired hepatic metabolism.",
+      "C": "It increases portal hypertension.",
+      "D": "It causes renal failure."
+    },
+    "answer": "B",
+    "rationale": "In advanced cirrhosis, drug metabolism is impaired, so hepatotoxic drugs like paracetamol must be limited.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Drugs to Avoid: Paracetamol)"
+  },
+  {
+    "id": "099",
+    "part": "8",
+    "question": "A nurse is preparing a patient for a paracentesis. The primary goal of this procedure is to:",
+    "options": {
+      "A": "Diagnose liver cancer.",
+      "B": "Drain excess fluid (ascites) from the abdominal cavity.",
+      "C": "Remove gallstones.",
+      "D": "Inject antibiotics into the liver."
+    },
+    "answer": "B",
+    "rationale": "Paracentesis is the drainage of fluid from the peritoneal cavity (ascites).",
+    "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf (Abdominal Paracentesis)"
+  },
+  {
+    "id": "100",
+    "part": "8",
+    "question": "Which medication is used for MASH (Metabolic dysfunction-associated steatohepatitis) and works as a Thyroid hormone receptor B agonist?",
+    "options": {
+      "A": "Pioglitazone.",
+      "B": "Resmetirom.",
+      "C": "Semaglutide.",
+      "D": "Empagliflozin."
+    },
+    "answer": "B",
+    "rationale": "Resmetirom is a thyroid hormone receptor B agonist specifically approved for MASH.",
+    "source": "Consolidation - Drugs used in liver disease.pdf (Resmetirom)"
+  },
+  {
+    "id": "101",
+    "part": "9-13",
+    "question": "A nurse is caring for a patient experiencing motion sickness. The patient is prescribed a transdermal scopolamine patch. The nurse understands this medication is effective because it primarily targets which system?",
+    "options": {
+      "A": "The chemoreceptor trigger zone (CTZ)",
+      "B": "The vestibular system",
+      "C": "The cerebral cortex",
+      "D": "The gastrointestinal mechanoreceptors"
+    },
+    "answer": "B",
+    "rationale": "Muscarinic receptor antagonists like scopolamine act on the vestibular system to prevent motion sickness.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "102",
+    "part": "9-13",
+    "question": "A patient with gastroparesis and post-prandial bloating is prescribed metoclopramide. Which mechanism of action explains the \"prokinetic\" effect of this drug?",
+    "options": {
+      "A": "Dopamine D2 receptor antagonism in the CTZ",
+      "B": "5-HT4 receptor stimulation in the GI tract",
+      "C": "H1 receptor blockade in the vomiting center",
+      "D": "NK1 receptor antagonism in the medulla"
+    },
+    "answer": "B",
+    "rationale": "While metoclopramide is a D2 antagonist for emesis, its prokinetic (motility) effects are due to 5-HT4 stimulation in the GI tract.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "103",
+    "part": "9-13",
+    "question": "A nurse is assessing a patient who has been taking metoclopramide for four months. The nurse should be most alert for which irreversible adverse effect?",
+    "options": {
+      "A": "Galactorrhea",
+      "B": "Oculogyric crisis",
+      "C": "Tardive dyskinesia",
+      "D": "Gynecomastia"
+    },
+    "answer": "C",
+    "rationale": "Extrapyramidal side effects, including dyskinesia and parkinsonism, increase with cumulative doses and prolonged use (>3 months).",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "104",
+    "part": "9-13",
+    "question": "A patient is receiving highly emetogenic chemotherapy (Cisplatin). According to the recommended regimens, which combination should the nurse expect to administer for acute phase prophylaxis?",
+    "options": {
+      "A": "Dexamethasone and Loperamide",
+      "B": "NK1 receptor antagonist, 5-HT3 receptor antagonist, and Dexamethasone",
+      "C": "Metoclopramide and Diphenhydramine",
+      "D": "Scopolamine patch and Ondansetron"
+    },
+    "answer": "B",
+    "rationale": "High emetic risk chemotherapy requires a 3-drug combination treatment for the acute phase.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "105",
+    "part": "9-13",
+    "question": "A patient is prescribed Domperidone for nausea. The nurse should obtain an baseline ECG because of the risk for which complication?",
+    "options": {
+      "A": "Bradycardia",
+      "B": "QT prolongation and ventricular arrhythmias",
+      "C": "Heart block",
+      "D": "Atrial fibrillation"
+    },
+    "answer": "B",
+    "rationale": "Cardiac side effects, specifically QT prolongation and ventricular arrhythmias, are known adverse effects of Domperidone.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "106",
+    "part": "9-13",
+    "question": "A nurse is educating a pregnant patient at 8 weeks gestation about managing morning sickness. Which medication is typically considered the first-line pharmacological choice?",
+    "options": {
+      "A": "Ondansetron",
+      "B": "Metoclopramide",
+      "C": "Doxylamine and Pyridoxine (Vitamin B6)",
+      "D": "Aprepitant"
+    },
+    "answer": "C",
+    "rationale": "Doxylamine and pyridoxine are usually the drugs of choice for vomiting in pregnancy.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "107",
+    "part": "9-13",
+    "question": "A patient is prescribed Ondansetron for post-operative nausea. The nurse should monitor for which common gastrointestinal side effect?",
+    "options": {
+      "A": "Diarrhea",
+      "B": "Constipation",
+      "C": "Steatorrhea",
+      "D": "Melena"
+    },
+    "answer": "B",
+    "rationale": "5-HT3 antagonists like Ondansetron are known to cause constipation.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "108",
+    "part": "9-13",
+    "question": "Which anti-emetic is specifically indicated for the *delayed* phase of chemotherapy-induced nausea and vomiting (CINV)?",
+    "options": {
+      "A": "Ondansetron",
+      "B": "Aprepitant",
+      "C": "Metoclopramide",
+      "D": "Promethazine"
+    },
+    "answer": "B",
+    "rationale": "5-HT3 antagonists work on the acute phase, while NK1 receptor antagonists (Aprepitant) have effects in the delayed phase.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "109",
+    "part": "9-13",
+    "question": "A nurse is caring for an elderly patient with dementia-related psychosis who is experiencing nausea. The nurse notes a \"Black Box Warning\" for which drug class sometimes used for its anti-emetic properties?",
+    "options": {
+      "A": "Corticosteroids",
+      "B": "Antipsychotics (e.g., Olanzapine)",
+      "C": "Benzodiazepines",
+      "D": "Cannabinoids"
+    },
+    "answer": "B",
+    "rationale": "Antipsychotics like Olanzapine have a black box warning for increased mortality in elderly patients with dementia-related psychosis.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "110",
+    "part": "9-13",
+    "question": "A patient reports nausea triggered by repulsive smells and emotional stress. The nurse knows these signals reach the vomiting center via which pathway?",
+    "options": {
+      "A": "The vestibular system",
+      "B": "The chemoreceptor trigger zone (CTZ)",
+      "C": "Higher centers in the central nervous system (Cerebral cortex)",
+      "D": "Vagal afferents from the GI tract"
+    },
+    "answer": "C",
+    "rationale": "Higher centers (Cortex, Thalamus, Hypothalamus) process sensory inputs like repulsive sights/smells and emotional factors.",
+    "source": "Consolidation - Anti-emetics.pdf"
+  },
+  {
+    "id": "111",
+    "part": "9-13",
+    "question": "A student nurse is sensitive to foul odors and experiences \"anticipatory nausea\" before clinical rounds. Which medication class is the drug of choice for this condition?",
+    "options": {
+      "A": "Benzodiazepines (e.g., Lorazepam)",
+      "B": "5-HT3 Antagonists",
+      "C": "Antacids",
+      "D": "Bulk-forming laxatives"
+    },
+    "answer": "A",
+    "rationale": "Benzodiazepines are the drug of choice for anticipatory nausea/vomiting due to their anxiolytic properties.",
+    "source": "NUR2125 interactive sesssion 11 Feb 2026.pdf"
+  },
+  {
+    "id": "112",
+    "part": "9-13",
+    "question": "A nurse is preparing to administer Promethazine. The nurse understands this drug has multiple mechanisms, including antagonism of which receptors?",
+    "options": {
+      "A": "H1, Muscarinic, and Dopamine (D2)",
+      "B": "NK1 and 5-HT4",
+      "C": "Mu-opioid receptors",
+      "D": "PPAR-gamma"
+    },
+    "answer": "A",
+    "rationale": "Promethazine is an H1 antagonist that also has anti-muscarinic and anti-dopaminergic (at CTZ) effects.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "113",
+    "part": "9-13",
+    "question": "A patient is taking Dexamethasone as part of a CINV regimen. The nurse should monitor for which acute side effect?",
+    "options": {
+      "A": "Hyperglycemia",
+      "B": "Hypoglycemia",
+      "C": "Hypotension",
+      "D": "Weight loss"
+    },
+    "answer": "A",
+    "rationale": "Corticosteroids like Dexamethasone can cause hyperglycemia and hypertension.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "114",
+    "part": "9-13",
+    "question": "Why is the Chemoreceptor Trigger Zone (CTZ) particularly sensitive to toxins and medications in the blood?",
+    "options": {
+      "A": "It is located in the cerebral cortex.",
+      "B": "It is functionally outside of the blood-brain barrier (BBB).",
+      "C": "It only responds to mechanical stimuli.",
+      "D": "It has no receptors for dopamine."
+    },
+    "answer": "B",
+    "rationale": "The CTZ is located in the area postrema and is outside the BBB, allowing it to be activated by various chemicals in the blood.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "115",
+    "part": "9-13",
+    "question": "A patient is prescribed a medication that inhibits the transmission of noxious stimuli from the GI tract to the CNS by blocking 5-HT3 receptors on vagal afferents. Which drug is this?",
+    "options": {
+      "A": "Metoclopramide",
+      "B": "Granisetron",
+      "C": "Scopolamine",
+      "D": "Aprepitant"
+    },
+    "answer": "B",
+    "rationale": "Granisetron (a 5-HT3 antagonist) inhibits the transmission of noxious stimuli from the GI tract to the CNS.",
+    "source": "Anti-emetic Drugs Slides.pdf"
+  },
+  {
+    "id": "116",
+    "part": "9-13",
+    "question": "A nurse is caring for a patient on morphine for pain control who has developed constipation. Which class of laxative is considered a targeted \"advanced therapy\" specifically for opioid-induced constipation?",
+    "options": {
+      "A": "Bulk-forming laxatives",
+      "B": "Stimulant laxatives",
+      "C": "Opioid Antagonists (e.g., Methylnaltrexone)",
+      "D": "Osmotic laxatives"
+    },
+    "answer": "C",
+    "rationale": "Peripherally acting mu-Opioid Receptor Antagonists (PAMORA) were developed specifically for opioid-induced constipation.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "117",
+    "part": "9-13",
+    "question": "A patient is prescribed Macrogol (Polyethylene glycol). The nurse should explain that this medication works by:",
+    "options": {
+      "A": "Stimulating the enteric nervous system directly.",
+      "B": "Drawing water into the bowel lumen via osmosis to stimulate peristalsis.",
+      "C": "Softening the stool through surfactant action.",
+      "D": "Blocking bile acid reabsorption in the ileum."
+    },
+    "answer": "B",
+    "rationale": "Macrogol is an osmotic laxative that draws water into the lumen, increasing stool liquidity and volume.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "118",
+    "part": "9-13",
+    "question": "A patient has been taking Senna for several months. During a colonoscopy, the physician notes \"benign brown pigmentation of the colon.\" The nurse recognizes this as:",
+    "options": {
+      "A": "A sign of colon cancer.",
+      "B": "A normal side effect of long-term Senna use.",
+      "C": "A sign of internal bleeding.",
+      "D": "A result of a high-fiber diet."
+    },
+    "answer": "B",
+    "rationale": "Senna use can cause a benign brown pigmentation of the colon.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "119",
+    "part": "9-13",
+    "question": "Which laxative should be avoided in a patient who has difficulty swallowing or is on fluid restriction?",
+    "options": {
+      "A": "Lactulose",
+      "B": "Bisacodyl",
+      "C": "Psyllium (Bulk-forming)",
+      "D": "Docusate"
+    },
+    "answer": "C",
+    "rationale": "Bulk-forming agents require ample water; lack of water can lead to bloating or bowel obstruction.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "120",
+    "part": "9-13",
+    "question": "A patient is prescribed Lubiprostone for chronic constipation. The nurse understands the mechanism of action involves:",
+    "options": {
+      "A": "Blocking the ileal bile acid transporter.",
+      "B": "Activating 5-HT4 receptors.",
+      "C": "Opening chloride channels (ClC-2) to increase intestinal fluid secretion.",
+      "D": "Inhibiting the sodium-hydrogen exchanger."
+    },
+    "answer": "C",
+    "rationale": "Lubiprostone is a secretagogue that opens chloride channel protein 2 to cause secretion into the intestine.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "121",
+    "part": "9-13",
+    "question": "A nurse is educating a patient about Prucalopride. Which common side effect should the nurse mention as a potential reason for discontinuing the drug?",
+    "options": {
+      "A": "Heartburn",
+      "B": "Headache",
+      "C": "Tinnitus",
+      "D": "Visual disturbances"
+    },
+    "answer": "B",
+    "rationale": "Headache is the main adverse effect that limits the use and tolerability of Prucalopride.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "122",
+    "part": "9-13",
+    "question": "Which laxative works as a surfactant, reducing the surface tension of the stool to facilitate the passage of water and lipids?",
+    "options": {
+      "A": "Mineral oil",
+      "B": "Docusate",
+      "C": "Glycerin",
+      "D": "Magnesium sulfate"
+    },
+    "answer": "B",
+    "rationale": "Docusate is a surfactant that facilitates the passage of water and lipids into the stool mass.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "123",
+    "part": "9-13",
+    "question": "A patient is prescribed Elobixibat. The nurse knows this drug promotes defecation by:",
+    "options": {
+      "A": "Increasing the production of gastric acid.",
+      "B": "Blocking bile acid resorption, leading to increased bile acids in the intestinal lumen.",
+      "C": "Stimulating the vomiting center.",
+      "D": "Acting as a vitamin B6 supplement."
+    },
+    "answer": "B",
+    "rationale": "Elobixibat is an Ileal Bile Acid Transporter (IBAT) inhibitor that increases bile acids in the lumen to decrease transit time.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "124",
+    "part": "9-13",
+    "question": "A patient with a spinal cord injury has not had a bowel movement for three days despite taking Macrogol. Which medication would be an appropriate second-line stimulant laxative?",
+    "options": {
+      "A": "Psyllium",
+      "B": "Senna",
+      "C": "Mineral oil",
+      "D": "Lactobacillus acidophilus"
+    },
+    "answer": "B",
+    "rationale": "Stimulant laxatives like Senna or Bisacodyl are often used as second-line therapy after osmotic laxatives fail.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "125",
+    "part": "9-13",
+    "question": "A patient reports bloating after taking Lactulose. The nurse explains this is due to:",
+    "options": {
+      "A": "Allergic reaction to the drug.",
+      "B": "Colonic bacteria acting on insoluble sugars to produce gas.",
+      "C": "The drug being absorbed too quickly into the bloodstream.",
+      "D": "Too much water being drawn out of the colon."
+    },
+    "answer": "B",
+    "rationale": "Bloating occurs because colonic bacteria act on the insoluble sugars in osmotic laxatives like lactulose.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "126",
+    "part": "9-13",
+    "question": "Which of the following is an adverse effect of Mineral Oil (Liquid Paraffin) if aspirated?",
+    "options": {
+      "A": "Nephritis",
+      "B": "Lipid pneumonitis",
+      "C": "Metabolic alkalosis",
+      "D": "Hypermagnesemia"
+    },
+    "answer": "B",
+    "rationale": "Aspirating mineral oil poses a risk of lipid pneumonitis.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "127",
+    "part": "9-13",
+    "question": "A nurse is reviewing medications for a patient with chronic functional constipation. The patient asks about probiotics. The nurse should state that probiotics:",
+    "options": {
+      "A": "Are only for acute diarrhea.",
+      "B": "Help restore the gut microbiome but are not for urgent bowel evacuation.",
+      "C": "Work by stimulating the enteric nervous system directly.",
+      "D": "Can cause severe hypertension."
+    },
+    "answer": "B",
+    "rationale": "Probiotics help regulate the microbiome and are used for chronic management, not acute evacuation.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "128",
+    "part": "9-13",
+    "question": "A patient is taking Magnesium Sulfate. The nurse should monitor for which electrolyte imbalance?",
+    "options": {
+      "A": "Hypokalemia",
+      "B": "Hypermagnesemia",
+      "C": "Hyponatremia",
+      "D": "Hypocalcemia"
+    },
+    "answer": "B",
+    "rationale": "Magnesium-based antacids and laxatives can cause hypermagnesemia.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "129",
+    "part": "9-13",
+    "question": "Stimulant laxatives are generally used as:",
+    "options": {
+      "A": "First-line therapy for all constipation.",
+      "B": "Second-line therapy after osmotic laxatives.",
+      "C": "A replacement for dietary fiber.",
+      "D": "Long-term therapy for more than 1 year."
+    },
+    "answer": "B",
+    "rationale": "Stimulant laxatives are often second-line after osmotic laxatives.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "130",
+    "part": "9-13",
+    "question": "A patient is prescribed Linaclotide. The nurse knows this drug binds to and activates which receptor?",
+    "options": {
+      "A": "Mu-opioid receptor",
+      "B": "Guanylate cyclase-C receptor",
+      "C": "D2 receptor",
+      "D": "H2 receptor"
+    },
+    "answer": "B",
+    "rationale": "Linaclotide/Plecanatide bind and activate guanylate cyclase-C receptors.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "131",
+    "part": "9-13",
+    "question": "A patient with acute infectious diarrhea is prescribed Loperamide. The nurse must be cautious because slowing intestinal transit can be dangerous in which condition?",
+    "options": {
+      "A": "Mild viral gastroenteritis",
+      "B": "Severe, bloody, or inflammatory diarrhea",
+      "C": "Chronic functional diarrhea",
+      "D": "Irritable bowel syndrome"
+    },
+    "answer": "B",
+    "rationale": "Slowing transit can be dangerous in severe/bloody/inflammatory diarrhea (e.g., risk of worsening infection or megacolon).",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "132",
+    "part": "9-13",
+    "question": "A nurse is administering Bismuth Subsalicylate. Which assessment finding is a normal, non-toxic side effect of this medication?",
+    "options": {
+      "A": "Tinnitus",
+      "B": "Dark/Black stools",
+      "C": "Peripheral neuropathy",
+      "D": "Hyperglycemia"
+    },
+    "answer": "B",
+    "rationale": "Bismuth can cause harmless darkening of the stool and the tongue.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "133",
+    "part": "9-13",
+    "question": "Which drug is an *indirect* opioid agonist that reduces diarrhea without decreasing intestinal motility?",
+    "options": {
+      "A": "Loperamide",
+      "B": "Diphenoxylate",
+      "C": "Racecadotril",
+      "D": "Codeine"
+    },
+    "answer": "C",
+    "rationale": "Racecadotril is an enkephalinase inhibitor that reduces diarrhea without decreasing motility, making it preferred in children.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "134",
+    "part": "9-13",
+    "question": "A patient with diarrhea-predominant Irritable Bowel Syndrome (IBS-D) is prescribed Amitriptyline. The nurse explains this medication is used because of its:",
+    "options": {
+      "A": "Antibacterial properties.",
+      "B": "Regulation of visceral hypersensitivity and anti-cholinergic effects.",
+      "C": "Ability to stimulate the proton pump.",
+      "D": "Ability to increase gut motility."
+    },
+    "answer": "B",
+    "rationale": "TCAs like Amitriptyline regulate visceral hypersensitivity and have anti-cholinergic effects that slow transit.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "135",
+    "part": "9-13",
+    "question": "A patient develops profuse watery diarrhea after 5 days of broad-spectrum antibiotic therapy. The nurse should prioritize testing for which condition?",
+    "options": {
+      "A": "Hepatitis B",
+      "B": "Clostridium difficile (C. diff) colitis",
+      "C": "Peptic ulcer disease",
+      "D": "Cholecystitis"
+    },
+    "answer": "B",
+    "rationale": "Broad-spectrum antibiotics can disrupt normal flora, leading to C. difficile superinfection.",
+    "source": "NUR2125 interactive sesssion 11 Feb 2026.pdf"
+  },
+  {
+    "id": "136",
+    "part": "9-13",
+    "question": "A patient is prescribed Cholestyramine for diarrhea following a cholecystectomy (gallbladder removal). The nurse understands this drug works by:",
+    "options": {
+      "A": "Inhibiting enkephalinase.",
+      "B": "Binding to bile acids in the lumen to prevent their irritating effect on the colon.",
+      "C": "Blocking 5-HT3 receptors.",
+      "D": "Stimulating prostaglandins."
+    },
+    "answer": "B",
+    "rationale": "Cholestyramine is a bile-acid sequestrant used for bile acid diarrhea (e.g., post-cholecystectomy).",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "137",
+    "part": "9-13",
+    "question": "Which medication is a somatostatin analogue used for refractory or secretory diarrhea, often administered parenterally?",
+    "options": {
+      "A": "Octreotide",
+      "B": "Loperamide",
+      "C": "Kaolin",
+      "D": "Bismuth"
+    },
+    "answer": "A",
+    "rationale": "Octreotide is a somatostatin analogue used for refractory or secretory diarrhea.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "138",
+    "part": "9-13",
+    "question": "A patient is taking Diphenoxylate with Atropine. The nurse knows that Atropine is added primarily to:",
+    "options": {
+      "A": "Increase the anti-diarrheal effect.",
+      "B": "Prevent abuse by causing unpleasant anti-cholinergic side effects at high doses.",
+      "C": "Improve the taste of the medication.",
+      "D": "Prevent constipation."
+    },
+    "answer": "B",
+    "rationale": "Atropine is added to diphenoxylate to prevent abuse/dependence due to its anti-cholinergic side effects.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "139",
+    "part": "9-13",
+    "question": "A nurse is caring for an immunocompromised patient with diarrhea. Why should the nurse exercise caution before recommending probiotics?",
+    "options": {
+      "A": "Probiotics always cause hypertension.",
+      "B": "There are case reports of sepsis in significantly immunocompromised individuals.",
+      "C": "Probiotics will interfere with insulin.",
+      "D": "Probiotics cause vitamin B12 deficiency."
+    },
+    "answer": "B",
+    "rationale": "Sepsis is a concern when using probiotics in severely immunocompromised patients.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "140",
+    "part": "9-13",
+    "question": "Which intestinal absorbent is also used in toxic overdoses to bind and inactivate medication products?",
+    "options": {
+      "A": "Pectin",
+      "B": "Kaolin",
+      "C": "Activated Charcoal",
+      "D": "Diosmectite"
+    },
+    "answer": "C",
+    "rationale": "Activated charcoal is used for both acute diarrhea and toxic drug overdoses.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "141",
+    "part": "9-13",
+    "question": "A nurse is educating a patient on Cholestyramine. The patient should be instructed to take other medications:",
+    "options": {
+      "A": "At the same time as Cholestyramine.",
+      "B": "At least a few hours before or after Cholestyramine to avoid binding.",
+      "C": "Only with meals.",
+      "D": "Only with fruit juice."
+    },
+    "answer": "B",
+    "rationale": "Cholestyramine can bind to other ingested drugs, so dosing must be spaced out.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "142",
+    "part": "9-13",
+    "question": "What is the primary priority in the clinical management of acute diarrhea?",
+    "options": {
+      "A": "Stopping all bowel movements immediately.",
+      "B": "Rehydration (Oral or Intravenous).",
+      "C": "Starting broad-spectrum antibiotics.",
+      "D": "Low-fiber diet."
+    },
+    "answer": "B",
+    "rationale": "The main priority in managing acute diarrhea is rehydration.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "143",
+    "part": "9-13",
+    "question": "A patient is prescribed Racecadotril for a child under two years old. The nurse should monitor for which specific risk?",
+    "options": {
+      "A": "Excessive hyperactivity.",
+      "B": "CNS depression due to an immature blood-brain barrier.",
+      "C": "Pre-stenotic dilation.",
+      "D": "Hypermagnesemia."
+    },
+    "answer": "B",
+    "rationale": "In children under two, where the BBB is immature, racecadotril can cause depression.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "144",
+    "part": "9-13",
+    "question": "A patient reports itching after taking an anti-diarrheal. This adverse effect is more common in which drug?",
+    "options": {
+      "A": "Loperamide",
+      "B": "Racecadotril",
+      "C": "Bismuth",
+      "D": "Octreotide"
+    },
+    "answer": "B",
+    "rationale": "The incidence of itching is higher in the racecadotril group compared to loperamide.",
+    "source": "Drugs for diarrhea and constipation Slides.pdf"
+  },
+  {
+    "id": "145",
+    "part": "9-13",
+    "question": "Which drug works by inhibiting the reuptake of serotonin and norepinephrine and is used for IBS-D?",
+    "options": {
+      "A": "Nortriptyline",
+      "B": "Misoprostol",
+      "C": "Famotidine",
+      "D": "Domperidone"
+    },
+    "answer": "A",
+    "rationale": "Nortriptyline (a TCA) inhibits reuptake of serotonin and norepinephrine.",
+    "source": "Consolidation - Diarrhoea, constipation.pdf"
+  },
+  {
+    "id": "146",
+    "part": "9-13",
+    "question": "A patient is diagnosed with an NSAID-induced gastric ulcer. Which medication is specifically a synthetic prostaglandin E1 analog used to prevent and treat these ulcers?",
+    "options": {
+      "A": "Sucralfate",
+      "B": "Misoprostol",
+      "C": "Omeprazole",
+      "D": "Famotidine"
+    },
+    "answer": "B",
+    "rationale": "Misoprostol is a prostaglandin analog specifically indicated for NSAID-induced ulcers.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "147",
+    "part": "9-13",
+    "question": "A patient is prescribed a Proton Pump Inhibitor (PPI). To achieve maximum absorption and effectiveness, the nurse should instruct the patient to take the medication:",
+    "options": {
+      "A": "1 hour after a heavy meal.",
+      "B": "On an empty stomach, 30-60 minutes before a meal.",
+      "C": "At bedtime with a snack.",
+      "D": "Only when they feel heartburn."
+    },
+    "answer": "B",
+    "rationale": "PPIs reach optimal activity when administered in a fasting state, usually 30-60 minutes before a meal.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "148",
+    "part": "9-13",
+    "question": "Which PPI is the drug of choice for delivery via a nasogastric (NG) tube due to its small granule diameter and similar bioavailability to oral dosing?",
+    "options": {
+      "A": "Omeprazole",
+      "B": "Esomeprazole",
+      "C": "Pantoprazole",
+      "D": "Lansoprazole"
+    },
+    "answer": "B",
+    "rationale": "Esomeprazole is preferred for NG administration because its bioavailability is similar when the capsule is opened.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "149",
+    "part": "9-13",
+    "question": "A patient is diagnosed with H. pylori and prescribed \"Triple Therapy.\" Which combination of medications should the nurse expect to see?",
+    "options": {
+      "A": "PPI + Amoxicillin + Clarithromycin",
+      "B": "PPI + Bismuth + Metronidazole + Tetracycline",
+      "C": "H2RA + Antacid + Sucralfate",
+      "D": "PPI + Levofloxacin + Rifabutin"
+    },
+    "answer": "A",
+    "rationale": "PPI-based triple therapy consists of a PPI, Amoxicillin, and Clarithromycin.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+  },
+  {
+    "id": "150",
+    "part": "9-13",
+    "question": "What is the mechanism of action for Potassium-Competitive Acid Blockers (PCABs) like Vonoprazan?",
+    "options": {
+      "A": "Irreversible binding to cysteine residues on the proton pump.",
+      "B": "Reversible binding to the K+ site of the H+/K+ ATPase on parietal cells.",
+      "C": "Neutralizing gastric acid through alkaline ions.",
+      "D": "Blocking H2 receptors."
+    },
+    "answer": "B",
+    "rationale": "PCABs directly and reversibly bind to the K+ binding site on the proton pump.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "151",
+    "part": "9-13",
+    "question": "A patient with renal failure needs an antacid. Which type should the nurse be most cautious about due to the risk of systemic electrolytic alterations and alkalosis?",
+    "options": {
+      "A": "Magnesium Hydroxide",
+      "B": "Aluminum Hydroxide",
+      "C": "Sodium Bicarbonate (Absorbable)",
+      "D": "Calcium Carbonate"
+    },
+    "answer": "C",
+    "rationale": "Absorbable antacids like sodium bicarbonate can produce systemic alterations and alkalosis.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "152",
+    "part": "9-13",
+    "question": "A patient taking an H2-Receptor Antagonist (H2RA) reports the medication seems less effective after two weeks of use. The nurse recognizes this as:",
+    "options": {
+      "A": "Drug-drug interaction.",
+      "B": "Tachyphylaxis (tolerance).",
+      "C": "Improper timing of the dose.",
+      "D": "Malabsorption syndrome."
+    },
+    "answer": "B",
+    "rationale": "Tachyphylaxis limits the prolonged use of H2RAs.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "153",
+    "part": "9-13",
+    "question": "Which PPI is considered the most potent based on Omeprazole equivalents?",
+    "options": {
+      "A": "Pantoprazole",
+      "B": "Rabeprazole",
+      "C": "Lansoprazole",
+      "D": "Esomeprazole"
+    },
+    "answer": "B",
+    "rationale": "Rabeprazole (20mg) has the highest omeprazole equivalent (36mg) among the listed PPIs.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+  },
+  {
+    "id": "154",
+    "part": "9-13",
+    "question": "A patient is prescribed Sucralfate. The nurse understands that this drug works by:",
+    "options": {
+      "A": "Inhibiting the proton pump.",
+      "B": "Forming a polyanion gel that creates a physical barrier over the ulcer site.",
+      "C": "Eradicating H. pylori bacteria.",
+      "D": "Increasing heart rate to improve blood flow."
+    },
+    "answer": "B",
+    "rationale": "Sucralfate forms a physical barrier to protect ulcers from acid and pepsin.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "155",
+    "part": "9-13",
+    "question": "A nurse is reviewing the side effects of PPIs. Which nutritional deficiency is associated with long-term PPI use?",
+    "options": {
+      "A": "Vitamin C",
+      "B": "Vitamin B12 and Magnesium",
+      "C": "Vitamin D and Potassium",
+      "D": "Vitamin A"
+    },
+    "answer": "B",
+    "rationale": "Long-term PPI use is linked to B12 deficiency and hypomagnesemia.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "156",
+    "part": "9-13",
+    "question": "A patient with a penicillin allergy needs H. pylori eradication therapy. Which modification is appropriate for the Triple Therapy?",
+    "options": {
+      "A": "Replace Amoxicillin with Metronidazole.",
+      "B": "Replace Clarithromycin with Tetracycline.",
+      "C": "Replace the PPI with an antacid.",
+      "D": "Give twice the dose of Clarithromycin."
+    },
+    "answer": "A",
+    "rationale": "Metronidazole may be used in place of amoxicillin for patients with a penicillin allergy.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+  },
+  {
+    "id": "157",
+    "part": "9-13",
+    "question": "Why is acid suppression necessary for successful H. pylori antibiotic treatment?",
+    "options": {
+      "A": "Antibiotics only work in pH < 2.",
+      "B": "H. pylori enters a replicative phase (making it sensitive to antibiotics) at neutral pH (6-7).",
+      "C": "Acid destroys the antibiotics.",
+      "D": "Protons compete with antibiotics for binding sites."
+    },
+    "answer": "B",
+    "rationale": "H. pylori is most sensitive to antibiotics when growing/replicating at neutral pH; at acidic pH, it turns into a resistant coccoid form.",
+    "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+  },
+  {
+    "id": "158",
+    "part": "9-13",
+    "question": "Which medication can cause uterine contractions and is contraindicated in pregnancy unless used for medical abortion?",
+    "options": {
+      "A": "Misoprostol",
+      "B": "Sucralfate",
+      "C": "Famotidine",
+      "D": "Bismuth"
+    },
+    "answer": "A",
+    "rationale": "Misoprostol causes uterine contractions and is used for medical abortion.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "159",
+    "part": "9-13",
+    "question": "A patient is taking an Aluminum-based antacid. Which side effect should the nurse expect?",
+    "options": {
+      "A": "Diarrhea",
+      "B": "Constipation",
+      "C": "Hypermagnesemia",
+      "D": "Alkalosis"
+    },
+    "answer": "B",
+    "rationale": "Aluminum-based and Calcium-based antacids tend to cause constipation.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "160",
+    "part": "9-13",
+    "question": "Which statement regarding PCABs vs. PPIs is correct?",
+    "options": {
+      "A": "PPIs have a faster onset than PCABs.",
+      "B": "PCABs reach full effect after the first dose, whereas PPIs take 3-5 days.",
+      "C": "PCABs must be taken before meals.",
+      "D": "PPIs are more potent for nocturnal acid suppression."
+    },
+    "answer": "B",
+    "rationale": "PCABs achieve full effect after the first dose; PPIs take 3-5 days.",
+    "source": "Drugs to Treat Peptic Ulcers Slides.pdf"
+  },
+  {
+    "id": "161",
+    "part": "9-13",
+    "question": "A patient with alcoholic liver cirrhosis presents with confusion and asterixis (flapping tremor). Which medication is first-line to reduce blood ammonia levels?",
+    "options": {
+      "A": "Spironolactone",
+      "B": "Lactulose",
+      "C": "Rifaximin",
+      "D": "Propranolol"
+    },
+    "answer": "B",
+    "rationale": "Lactulose is first-line for hepatic encephalopathy; it lowers gut pH to trap ammonia as ammonium.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "162",
+    "part": "9-13",
+    "question": "A nurse is preparing to administer N-acetylcysteine (NAC) to a patient with acute liver failure. NAC works as an antidote for paracetamol overdose by:",
+    "options": {
+      "A": "Stimulating the production of glutathione to neutralize NAPQI.",
+      "B": "Increasing the absorption of paracetamol.",
+      "C": "Blocking the mu-opioid receptor.",
+      "D": "Stimulating bile flow."
+    },
+    "answer": "A",
+    "rationale": "NAC stimulates glutathione production, which converts the toxic metabolite NAPQI into non-toxic products.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "163",
+    "part": "9-13",
+    "question": "A patient with cirrhosis has significant ascites. Which diuretic is the key agent used because it blocks the renin-angiotensin-aldosterone system (RAAS)?",
+    "options": {
+      "A": "Furosemide",
+      "B": "Hydrochlorothiazide",
+      "C": "Spironolactone",
+      "D": "Acetazolamide"
+    },
+    "answer": "C",
+    "rationale": "Spironolactone (an aldosterone antagonist) is first-line for ascites as it targets the underlying hyperaldosteronism.",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "164",
+    "part": "9-13",
+    "question": "A patient with cirrhosis is prescribed Propranolol for primary prophylaxis of variceal bleeding. The nurse understands this drug reduces portal pressure by:",
+    "options": {
+      "A": "Causing systemic vasodilation.",
+      "B": "Splanchnic vasoconstriction (Beta-2 blockade) and decreased cardiac output (Beta-1 blockade).",
+      "C": "Increasing blood flow to the liver.",
+      "D": "Eradicating H. pylori."
+    },
+    "answer": "B",
+    "rationale": "Non-selective beta-blockers reduce portal pressure via Beta-1 (cardiac output) and Beta-2 (splanchnic vasoconstriction) blockade.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "165",
+    "part": "9-13",
+    "question": "A patient with decompensated cirrhosis should avoid which class of analgesics due to the risk of renal impairment (Hepatorenal syndrome)?",
+    "options": {
+      "A": "Paracetamol (low dose)",
+      "B": "Opiates (low dose)",
+      "C": "NSAIDs (e.g., Diclofenac)",
+      "D": "Tramadol"
+    },
+    "answer": "C",
+    "rationale": "NSAIDs should be avoided in all cirrhotic patients due to the risk of GI ulcers and renal impairment.",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "166",
+    "part": "9-13",
+    "question": "A nurse is reviewing medications for a patient with Hepatitis B. Which drug class is the current mainstay of therapy?",
+    "options": {
+      "A": "Nucleoside analogues (e.g., Tenofovir, Entecavir)",
+      "B": "Highly effective combination antivirals (e.g., Sofosbuvir)",
+      "C": "Corticosteroids",
+      "D": "Beta-blockers"
+    },
+    "answer": "A",
+    "rationale": "Current HBV therapy centers on nucleoside analogues like Tenofovir and Entecavir.",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "167",
+    "part": "9-13",
+    "question": "A patient is taking Tenofovir Disoproxil Fumarate (TDF). The nurse should monitor for which specific adverse events?",
+    "options": {
+      "A": "Renal impairment and osteoporosis",
+      "B": "Hypertension and weight gain",
+      "C": "Diarrhea and hiccups",
+      "D": "Metallic taste and neuropathy"
+    },
+    "answer": "A",
+    "rationale": "TDF is associated with renal impairment and bone density loss (osteoporosis).",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "168",
+    "part": "9-13",
+    "question": "Which statement about Hepatitis C treatment is true?",
+    "options": {
+      "A": "It requires lifelong therapy like Hepatitis B.",
+      "B": "It is curative with high success rates using combinations like Sofosbuvir/Velpatasvir.",
+      "C": "It only uses single-drug therapy.",
+      "D": "It is not available locally."
+    },
+    "answer": "B",
+    "rationale": "Hepatitis C treatment is curative and uses highly effective antiviral combinations.",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "169",
+    "part": "9-13",
+    "question": "A patient is prescribed Rifaximin for recurrent hepatic encephalopathy. The nurse explains this is an antibiotic that:",
+    "options": {
+      "A": "Is absorbed systemically to treat liver abscesses.",
+      "B": "Works primarily in the gut to decrease nitrogen-producing bacteria.",
+      "C": "Treats viral hepatitis.",
+      "D": "Lowers blood glucose."
+    },
+    "answer": "B",
+    "rationale": "Rifaximin is a non-absorbable antibiotic that reduces harmful enteric bacteria in the gut.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "170",
+    "part": "9-13",
+    "question": "A patient with MASH (Metabolic dysfunction-associated steatohepatitis) is prescribed Semaglutide. The nurse understands this GLP-1 receptor agonist aids MASH by:",
+    "options": {
+      "A": "Blocking chloride channels.",
+      "B": "Promoting weight loss and reducing hepatic lipogenesis.",
+      "C": "Directly killing liver bacteria.",
+      "D": "Neutralizing bile acids."
+    },
+    "answer": "B",
+    "rationale": "GLP-1 RAs contribute to MASH improvement through weight loss and decreased liver fat content.",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "171",
+    "part": "9-13",
+    "question": "A patient with decompensated cirrhosis (Child's C) has high cholesterol. The nurse expects the physician to:",
+    "options": {
+      "A": "Start high-dose Atorvastatin.",
+      "B": "Minimize or stop statin therapy due to impaired drug metabolism.",
+      "C": "Use Simvastatin at triple the normal dose.",
+      "D": "Switch to an NSAID for lipid control."
+    },
+    "answer": "B",
+    "rationale": "In decompensated cirrhosis, statin dose should be minimal or stopped due to the risk of toxicity.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "172",
+    "part": "9-13",
+    "question": "A nurse is caring for a patient with an acute hepatobiliary infection (Cholangitis). Which antibiotic is commonly used for empirical coverage of Gram-negative bacteria?",
+    "options": {
+      "A": "Metronidazole",
+      "B": "Ceftriaxone (3rd generation cephalosporin)",
+      "C": "Vancomycin",
+      "D": "Penicillin G"
+    },
+    "answer": "B",
+    "rationale": "3rd generation cephalosporins like Ceftriaxone provide broad coverage of Gram-negative bacteria in hepatobiliary infections.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "173",
+    "part": "9-13",
+    "question": "Why is Metronidazole often added to the antibiotic regimen for hepatobiliary infections?",
+    "options": {
+      "A": "To cover aerobic Gram-positive bacteria.",
+      "B": "To provide anaerobic bacterial coverage that cephalosporins lack.",
+      "C": "To treat viral hepatitis C.",
+      "D": "To prevent QT prolongation."
+    },
+    "answer": "B",
+    "rationale": "Metronidazole is used for anaerobic coverage in hepatobiliary infections.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "174",
+    "part": "9-13",
+    "question": "A patient is taking Pioglitazone for MASH. The nurse should monitor for which significant cardiac side effect?",
+    "options": {
+      "A": "Myocardial infarction",
+      "B": "Cardiac failure",
+      "C": "Tachycardia",
+      "D": "Heart block"
+    },
+    "answer": "B",
+    "rationale": "Cardiac failure is a main safety concern for Pioglitazone.",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "175",
+    "part": "9-13",
+    "question": "What is the mechanism of action for Resmetirom, a new drug for MASH?",
+    "options": {
+      "A": "SGLT2 inhibitor",
+      "B": "Thyroid hormone receptor-beta agonist",
+      "C": "Muscarinic antagonist",
+      "D": "NK1 receptor antagonist"
+    },
+    "answer": "B",
+    "rationale": "Resmetirom is a thyroid hormone receptor-beta agonist that increases hepatic fat metabolism.",
+    "source": "Drugs used in liver disease slides.pdf"
+  },
+  {
+    "id": "176",
+    "part": "9-13",
+    "question": "A patient with cirrhosis is prescribed Carvedilol. In addition to portal pressure, the nurse knows this drug also causes:",
+    "options": {
+      "A": "Alpha-1 blockade (vasodilation) and Beta-blockade.",
+      "B": "Severe constipation.",
+      "C": "Rapid gastric emptying.",
+      "D": "High blood pressure."
+    },
+    "answer": "A",
+    "rationale": "Carvedilol provides both alpha-1 blockade and non-selective beta-blockade.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "177",
+    "part": "9-13",
+    "question": "A patient with advanced cirrhosis should limit their daily intake of Paracetamol to no more than:",
+    "options": {
+      "A": "4 grams",
+      "B": "2 grams",
+      "C": "500 mg",
+      "D": "10 grams"
+    },
+    "answer": "B",
+    "rationale": "In advanced or decompensated cirrhosis, paracetamol intake should be limited to 2g/day.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "178",
+    "part": "9-13",
+    "question": "A patient on Metformin for diabetes is diagnosed with decompensated liver cirrhosis. The nurse expects the drug may be discontinued because of the risk for:",
+    "options": {
+      "A": "Constipation.",
+      "B": "Metformin-associated lactic acidosis (MALA).",
+      "C": "Extrapyramidal symptoms.",
+      "D": "QT prolongation."
+    },
+    "answer": "B",
+    "rationale": "Metformin is often avoided in decompensated cirrhosis due to the risk of MALA.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "179",
+    "part": "9-13",
+    "question": "A nurse is caring for a patient with acute variceal bleeding. Which medication is given as a continuous infusion to cause splanchnic vasoconstriction?",
+    "options": {
+      "A": "Spironolactone",
+      "B": "Somatostatin",
+      "C": "Lactulose",
+      "D": "Tenofovir"
+    },
+    "answer": "B",
+    "rationale": "Somatostatin is given as a continuous infusion for acute variceal bleeding due to its short half-life.",
+    "source": "Consolidation - Drugs used in liver disease.pdf"
+  },
+  {
+    "id": "180",
+    "part": "9-13",
+    "question": "Which MASH medication induces glucose urinary excretion and has shown improvements in liver steatosis?",
+    "options": {
+      "A": "GLP1 receptor agonists",
+      "B": "SGLT2 inhibitors (e.g., Dapagliflozin)",
+      "C": "Resmetirom",
+      "D": "Pioglitazone"
+    },
+    "answer": "B",
+    "rationale": "SGLT2 inhibitors induce urinary glucose excretion and improve steatosis and potentially fibrosis.",
+    "source": "Drugs used in liver disease slides.pdf"
+  }
+]
