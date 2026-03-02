@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NUR2125 · GI PPNP Quiz</title>
+    <title>NUR2125 GI PPNP Quiz</title>
     <style>
         * {
             box-sizing: border-box;
@@ -28,19 +28,9 @@
             border-radius: 40px 40px 40px 40px;
             margin-bottom: 32px;
             box-shadow: 0 15px 25px -8px rgba(0,40,60,0.3);
-            border: 1px solid #2b6a8c;
         }
-        header h1 {
-            margin: 0 0 8px 0;
-            font-weight: 600;
-            font-size: 2.2rem;
-            letter-spacing: -0.02em;
-        }
-        header p {
-            margin: 0 0 12px 0;
-            color: #c2def5;
-            font-size: 1.1rem;
-        }
+        header h1 { margin: 0 0 8px; font-weight: 600; font-size: 2.2rem; }
+        header p { margin: 0 0 12px; color: #c2def5; font-size: 1.1rem; }
         .part-selector {
             display: flex;
             flex-wrap: wrap;
@@ -66,10 +56,7 @@
             color: #0b2b40;
             border-color: white;
         }
-        .part-btn:hover {
-            background: #347a9e;
-            border-color: #a3d0e8;
-        }
+        .part-btn:hover { background: #347a9e; border-color: #a3d0e8; }
         .score-panel {
             background: white;
             border-radius: 60px;
@@ -87,7 +74,6 @@
             font-weight: 600;
             padding: 6px 24px;
             border-radius: 40px;
-            letter-spacing: 0.3px;
         }
         .q-container {
             background: white;
@@ -145,6 +131,13 @@
             border-color: #1e6e9c;
             background: #e1f0fa;
         }
+        .option-item.locked {
+            opacity: 0.9;
+            border-color: #2f7aa1;
+            background: #d6e9f8;
+            cursor: default;
+            pointer-events: none;      /* fully locked – no further clicks */
+        }
         .option-letter {
             width: 46px;
             height: 46px;
@@ -163,6 +156,11 @@
             color: #1a384b;
             flex: 1;
         }
+        .lock-icon {
+            margin-left: auto;
+            font-size: 1.2rem;
+            color: #1c6a96;
+        }
         .answer-panel {
             background: #ecf6fe;
             border-radius: 26px;
@@ -179,12 +177,7 @@
             display: inline-block;
             margin-bottom: 15px;
         }
-        .rationale {
-            font-size: 1.05rem;
-            color: #023047;
-            margin: 12px 0;
-            line-height: 1.6;
-        }
+        .rationale { font-size: 1.05rem; color: #023047; margin: 12px 0; line-height: 1.6; }
         .source {
             background: #ddeeff;
             padding: 12px 22px;
@@ -212,16 +205,9 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.02);
         }
-        .nav-btn:hover:not(:disabled) {
-            background: #e5f0f9;
-            border-color: #6f9fbf;
-        }
-        .nav-btn:disabled {
-            opacity: 0.3;
-            cursor: not-allowed;
-        }
+        .nav-btn:hover:not(:disabled) { background: #e5f0f9; border-color: #6f9fbf; }
+        .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
         .index-indicator {
             font-weight: 600;
             color: #1e5d80;
@@ -237,48 +223,32 @@
             color: #2b4f69;
             font-weight: 500;
             cursor: pointer;
-            transition: 0.1s;
         }
-        .clear-btn:hover {
-            background: #f0f6fd;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            color: #6c8aa3;
-            font-size: 0.9rem;
-        }
-        .loader {
-            text-align: center;
-            padding: 70px;
-            color: #326885;
-            font-size: 1.3rem;
-        }
+        .clear-btn:hover { background: #f0f6fd; }
+        footer { text-align: center; margin-top: 30px; color: #6c8aa3; }
+        .loader { text-align: center; padding: 70px; color: #326885; font-size: 1.3rem; }
     </style>
 </head>
 <body>
 <div class="app-wrapper" id="app">
     <header>
-        <h1>🧪 NUR2125 GI PPNP Quiz</h1>
-        <p>one question at a time | track your score per part</p>
+        <h1>🔒 NUR2125 GI PPNP Quiz</h1>
+        <p>answers locked once selected | score per part</p>
         <div class="part-selector">
             <button v-for="p in partList" :key="p.val" class="part-btn" :class="{active: currentPart === p.val}" @click="switchPart(p.val)">{{ p.label }}</button>
         </div>
     </header>
 
-    <!-- loading / error -->
     <div v-if="!loaded" class="loader">⏳ loading question bank ...</div>
 
     <template v-else>
-        <!-- Score panel for selected part -->
-        <div class="score-panel" v-if="filteredQuestions.length > 0">
+        <div class="score-panel" v-if="filteredQuestions.length">
             <span>📊 part {{ currentPart }} score</span>
             <span class="score-badge">{{ partScore.correct }} / {{ partScore.total }} ({{ Math.round(partScore.percent) }}%)</span>
-            <button class="clear-btn" @click="clearPartAnswers">clear part answers</button>
+            <button class="clear-btn" @click="clearPartAnswers" :disabled="partScore.total === 0">clear part answers</button>
         </div>
 
-        <!-- main question card -->
-        <div class="q-container" v-if="filteredQuestions.length > 0">
+        <div class="q-container" v-if="filteredQuestions.length">
             <div class="q-header">
                 <span class="q-num">Q{{ currentIndex + 1 }} of {{ filteredQuestions.length }}</span>
                 <span class="part-tag">part {{ currentQuestion.part }}</span>
@@ -286,22 +256,29 @@
             <div class="q-text" v-html="currentQuestion.question"></div>
 
             <div class="options">
-                <div v-for="opt in ['A','B','C','D']" :key="opt" class="option-item" :class="{selected: userAnswer === opt}" @click="setAnswer(opt)">
+                <div v-for="opt in ['A','B','C','D']" :key="opt" 
+                     class="option-item" 
+                     :class="{
+                        selected: userAnswer === opt,
+                        locked: isLocked
+                     }" 
+                     @click="isLocked ? null : setAnswer(opt)">
                     <span class="option-letter">{{ opt }}</span>
                     <span class="option-text" v-html="currentQuestion.options[opt]"></span>
+                    <span v-if="isLocked && userAnswer === opt" class="lock-icon">🔒</span>
                 </div>
             </div>
 
-            <!-- answer panel (only if answer selected) -->
-            <div v-if="userAnswer" class="answer-panel">
+            <!-- answer panel (visible only if answer locked) -->
+            <div v-if="isLocked" class="answer-panel">
                 <div class="correct-badge">✓ correct answer: {{ currentQuestion.answer }}</div>
                 <div class="rationale"><strong>Rationale:</strong> {{ currentQuestion.rationale }}</div>
                 <div class="source"><span style="opacity:0.7">📘</span> {{ currentQuestion.source }}</div>
-                <div style="margin-top: 15px; font-style:italic;" v-if="userAnswer === currentQuestion.answer">✅ you are correct</div>
-                <div style="margin-top: 15px; font-style:italic; color:#a12a2a;" v-else>❌ your answer: {{ userAnswer }}</div>
+                <div style="margin-top: 15px; font-weight:500;" :style="{color: userAnswer === currentQuestion.answer ? '#117a4b' : '#b13e3e'}">
+                    {{ userAnswer === currentQuestion.answer ? '✅ correct' : '❌ incorrect' }} (your choice: {{ userAnswer }})
+                </div>
             </div>
 
-            <!-- navigation -->
             <div class="nav-buttons">
                 <button class="nav-btn" :disabled="currentIndex === 0" @click="prevQuestion">← Previous</button>
                 <span class="index-indicator">{{ currentIndex + 1 }} / {{ filteredQuestions.length }}</span>
@@ -309,12 +286,11 @@
             </div>
         </div>
 
-        <!-- no questions in part -->
         <div v-else style="background:white; border-radius:40px; padding:60px; text-align:center; color:#466882;">
             🧫 no questions in part {{ currentPart }}.
         </div>
     </template>
-    <footer>STEM NCLEX · single question mode · score per part</footer>
+    <footer>locked mode · answers persist during navigation · score per part</footer>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
@@ -324,13 +300,12 @@
         data: {
             allQuestions: [],
             loaded: false,
-            currentPart: '1',           // default part
-            currentIndex: 0,             // index within filtered list
-            userAnswers: {},              // key: questionId (string) -> selected letter
+            currentPart: '1',
+            currentIndex: 0,
+            userAnswers: {},          // key: questionId -> selected letter (once set, locked)
         },
         computed: {
             partList() {
-                // build from actual data if possible, but static list works
                 return [
                     { val: '1', label: '1 Antiemetics' },
                     { val: '2', label: '2 Diarrhea' },
@@ -340,24 +315,25 @@
                     { val: '6', label: '6 Cholecystitis' },
                     { val: '7', label: '7 Hepatitis' },
                     { val: '8', label: '8 Cirrhosis' },
-                    { val: '9-13', label: '9–13 Pharm' }
+                    { val: '9-13', label: '9–13 Advanced' }
                 ];
             },
             filteredQuestions() {
-                if (!this.allQuestions.length) return [];
                 return this.allQuestions.filter(q => q.part === this.currentPart);
             },
             currentQuestion() {
-                if (this.filteredQuestions.length === 0) return null;
-                return this.filteredQuestions[this.currentIndex];
+                return this.filteredQuestions[this.currentIndex] || null;
             },
             userAnswer() {
                 if (!this.currentQuestion) return null;
                 return this.userAnswers[this.currentQuestion.id] || null;
             },
+            isLocked() {
+                if (!this.currentQuestion) return false;
+                return this.userAnswers.hasOwnProperty(this.currentQuestion.id);
+            },
             partScore() {
-                let total = 0;
-                let correct = 0;
+                let total = 0, correct = 0;
                 this.filteredQuestions.forEach(q => {
                     const ans = this.userAnswers[q.id];
                     if (ans) {
@@ -372,10 +348,8 @@
         methods: {
             setAnswer(opt) {
                 if (!this.currentQuestion) return;
-                // set or toggle? we'll set, but if same option -> we can unset (optional)
-                if (this.userAnswers[this.currentQuestion.id] === opt) {
-                    this.$delete(this.userAnswers, this.currentQuestion.id); // unselect
-                } else {
+                // LOCK: once set, never change
+                if (!this.userAnswers.hasOwnProperty(this.currentQuestion.id)) {
                     this.$set(this.userAnswers, this.currentQuestion.id, opt);
                 }
             },
@@ -387,10 +361,10 @@
             },
             switchPart(partVal) {
                 this.currentPart = partVal;
-                this.currentIndex = 0; // reset to first question
+                this.currentIndex = 0;
             },
             clearPartAnswers() {
-                // remove all answers for questions in current part
+                // remove only answers for questions belonging to current part
                 this.filteredQuestions.forEach(q => {
                     if (this.userAnswers[q.id]) {
                         this.$delete(this.userAnswers, q.id);
@@ -400,7 +374,7 @@
             loadQuestions() {
                 fetch('questions.json')
                     .then(r => {
-                        if (!r.ok) throw new Error('network');
+                        if (!r.ok) throw new Error('network error');
                         return r.json();
                     })
                     .then(data => {
@@ -409,8 +383,7 @@
                     })
                     .catch(err => {
                         console.error(err);
-                        // fallback: show empty, but set loaded true to hide loader
-                        this.loaded = true;
+                        this.loaded = true;  // show empty state
                     });
             }
         },
