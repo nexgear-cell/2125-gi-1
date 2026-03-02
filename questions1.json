@@ -1,0 +1,734 @@
+{
+  "meta": {
+    "title": "PPNP Case‑Based Quiz 1",
+    "version": "1.1",
+    "description": "Case-Based Critical Thinking: Gastric, Intestinal, and Hepatobiliary Disorders",
+    "shuffleQuestions": false,
+    "shuffleOptions": false
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Tan Mei Ling, 44, presents with gnawing epigastric pain occurring 2 to 3 hours after a meal and at night. Based on the timing of this pain, which condition is most likely?",
+      "options": ["Gastric ulcer", "Duodenal ulcer", "Chronic cholecystitis", "Sigmoid colon obstruction"],
+      "answerIndex": 1,
+      "rationale": "According to the nursing process recap, pain from duodenal ulcers typically occurs 2 to 3 hours after a meal and at night, whereas gastric ulcer pain occurs 15 to 30 minutes after a meal.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 2,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Ms. Tan's gastric biopsy confirms a Helicobacter pylori infection. What is the primary mechanism by which H. pylori contributes to peptic ulcer formation?",
+      "options": ["Inhibition of the COX-1 enzyme", "Direct invasion of the muscularis mucosae", "Production of urease to neutralize gastric acid and disrupt the protective mucus barrier", "Stimulation of excessive bicarbonate secretion"],
+      "answerIndex": 2,
+      "rationale": "H. pylori uses urease to neutralize urea into ammonia and CO2, neutralizing gastric acid to survive, while damaging the mucosa through inflammation and bacterial mucinase.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 3,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Which medication regimen is considered first-line \"Triple Therapy\" for Ms. Tan's H. pylori eradication?",
+      "options": ["PPI, Amoxicillin, and Clarithromycin", "PPI, Bismuth, Metronidazole, and Tetracycline", "PPI, Levofloxacin, and Amoxicillin", "PPI, Metronidazole, and Rifabutin"],
+      "answerIndex": 0,
+      "rationale": "PPI-based triple therapy traditionally consists of a PPI (e.g., Esomeprazole) combined with Amoxicillin and Clarithromycin.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 4,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Ms. Tan is prescribed Esomeprazole. What is the pharmacological action of this Proton Pump Inhibitor (PPI)?",
+      "options": ["Neutralizing existing stomach acid", "Irreversibly binding to the H+/K+ ATPase enzyme to inhibit acid secretion", "Coating the ulcer pit to provide a physical barrier", "Occupying histamine receptors to prevent acid stimulation"],
+      "answerIndex": 1,
+      "rationale": "PPIs irreversibly bind to the gastric H+/K+ ATPase (proton pump), inhibiting the final step of gastric acid secretion.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 5,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "A nurse is educating a student on why PPIs should be administered 1 hour before a meal. Which statement is correct?",
+      "options": ["Food increases the absorption of the drug in the small intestine.", "PPIs are most effective when proton pumps are activated by the anticipation of a meal.", "The drug requires a high-pH environment to become active.", "PPIs cause severe nausea if taken on an empty stomach."],
+      "answerIndex": 1,
+      "rationale": "H. pylori multiply best at pH 6-8 but are sensitive to antibiotics when growing; acid suppression and raising pH improves eradication. PPIs are most efficacious for ulcer healing and stabilization.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf; NUR2125 Tutorial 1"
+    },
+    {
+      "id": 6,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Ms. Tan reports she does not use NSAIDs. If she had been a chronic NSAID user, how would these drugs have contributed to her ulcer risk?",
+      "options": ["By increasing mucus production", "By inhibiting prostaglandin synthesis", "By decreasing gastric acid levels", "By stimulating blood flow to the mucosa"],
+      "answerIndex": 1,
+      "rationale": "NSAIDs inhibit the COX enzyme and prostaglandin synthesis, making the gastric mucosa susceptible to damage and ulcers.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 7,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "The nurse monitors Ms. Tan for complications of her duodenal ulcer. Which finding would most likely indicate a perforation?",
+      "options": ["Occasional loose stools", "Gnawing pain relieved by food", "Sudden, severe abdominal pain with rigidity", "Unintentional weight loss of 3 kg"],
+      "answerIndex": 2,
+      "rationale": "Perforation results in the release of gastric/duodenal contents into the peritoneal cavity, causing sudden severe abdominal pain and rigidity (peritonitis).",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 8,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Ms. Tan is at risk for Upper GI bleeding. What are the priority nursing assessments for this condition?",
+      "options": ["Daily weights and abdominal girth", "Vital signs, conscious level, and stool color/consistency", "Sclera color and pruritus", "Peripheral edema and shifting dullness"],
+      "answerIndex": 1,
+      "rationale": "Management of Upper GI bleeding involves monitoring conscious level, vital signs for shock (low BP, high HR), and assessing for hematemesis or melena.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 9,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Which diagnostic test involves collecting breath samples after swallowing a 13C-labeled tablet to detect H. pylori?",
+      "options": ["Esophagogastroduodenoscopy (EGD)", "Barium enema", "Urea Breath Test", "Flexible sigmoidoscopy"],
+      "answerIndex": 2,
+      "rationale": "The 13C-Urea Breath Test involves collecting breath before and 20 minutes after taking a 13C tablet to detect the presence of H. pylori urease.",
+      "source": "PP Tut 1 NUR2125 PP Tutorial 1.pdf"
+    },
+    {
+      "id": 10,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Ms. Tan's Hemoglobin is 10.3 g/dL. What does this finding suggest in the context of her duodenal ulcer?",
+      "options": ["Iron-deficiency due to diet", "Chronic bleeding from the ulcer", "Normal variation for a female Chinese patient", "Vitamin D malabsorption"],
+      "answerIndex": 1,
+      "rationale": "A hemoglobin of 10.3 g/dL (reference 12-16) and blood-streaked stools suggest blood loss, potentially from the bleeding ulcer or the identified colon mass.",
+      "source": "Case A for PPNP Tutorial; NUR2125 Tutorial 1"
+    },
+    {
+      "id": 11,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "Which mucosal protective agent is known to cause a harmless darkening of the stools?",
+      "options": ["Sucralfate", "Misoprostol", "Bismuth compounds", "Magnesium hydroxide"],
+      "answerIndex": 2,
+      "rationale": "Bismuth compounds can cause the darkening of stools, which should not be confused with melena.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 12,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "If Ms. Tan were allergic to Penicillin, what substitution would be made in her H. pylori Triple Therapy?",
+      "options": ["Substitute Amoxicillin with Metronidazole", "Substitute Clarithromycin with Tetracycline", "Substitute the PPI with Famotidine", "Use Bismuth instead of Clarithromycin"],
+      "answerIndex": 0,
+      "rationale": "For patients with a penicillin allergy, Metronidazole may be used in place of Amoxicillin in Triple Therapy.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 13,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "A patient asks about the risk of gastric cancer. The nurse explains that H. pylori is a known risk factor. What is a key nursing intervention regarding this?",
+      "options": ["Promoting a high-fat diet", "Confirming eradication of the infection after treatment", "Advising the patient to take NSAIDs for pain", "Routine use of antacids only"],
+      "answerIndex": 1,
+      "rationale": "Because H. pylori is a cause of gastric cancer, confirming eradication via breath test or EGD after therapy is essential.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 14,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "In the treatment of PUD, which medication acts by forming a protective layer over the ulcer site rather than altering acid pH?",
+      "options": ["Famotidine", "Rabeprazole", "Sucralfate", "Sodium Bicarbonate"],
+      "answerIndex": 2,
+      "rationale": "Sucralfate is a cytoprotective agent that physically coats the ulcer pit.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 15,
+      "section": "Section 1: Peptic Ulcer Disease and Helicobacter Pylori",
+      "text": "The nurse is reviewing the side effects of PPIs. Long-term use is associated with which risk?",
+      "options": ["Chronic constipation", "Nutritional deficiencies and GI infections like C. difficile", "Increased bile production", "Metallic taste"],
+      "answerIndex": 1,
+      "rationale": "PPIs can lead to GI infections and nutritional deficiencies, especially with long-term use.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+
+    {
+      "id": 16,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Ms. Tan's Barium enema reveals an \"apple core\" sign in the distal sigmoid colon. This finding is classically associated with:",
+      "options": ["Peptic ulcer disease", "Cholecystitis", "Colon cancer", "Hepatitis B"],
+      "answerIndex": 2,
+      "rationale": "The apple core sign is a classic radiological finding in cases of colon cancer.",
+      "source": "PP Tut 1 NUR2125 PP Tutorial 1.pdf"
+    },
+    {
+      "id": 17,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Ms. Tan reports \"decreased caliber of stools.\" This symptom is most characteristic of a tumor located in the:",
+      "options": ["Right-sided colon", "Ascending colon", "Sigmoid colon (Left-sided)", "Cecum"],
+      "answerIndex": 2,
+      "rationale": "Changes in bowel habits and decreased stool caliber are common in left-sided colon cancers (like the sigmoid colon).",
+      "source": "PP Tut 1 NUR2125 PP Tutorial 1.pdf"
+    },
+    {
+      "id": 18,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "What family history factor increases Ms. Tan's risk for Colorectal Cancer?",
+      "options": ["Mother with Diabetes Mellitus", "Father with Colon Cancer", "Daughter with NKDA", "Personal history of gallstones"],
+      "answerIndex": 1,
+      "rationale": "A first-degree relative (father) with colorectal cancer is a significant risk factor.",
+      "source": "PP Tut 1 NUR2125 PP Tutorial 1.pdf"
+    },
+    {
+      "id": 19,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Ms. Tan is diagnosed with a sigmoid adenocarcinoma causing 75% obstruction. She presents with distension and vomiting. What is the priority nursing goal?",
+      "options": ["Administering a high-fiber diet", "Maintaining fluid and electrolyte balance", "Encouraging strenuous exercise", "Teaching the patient to use a hard toothbrush"],
+      "answerIndex": 1,
+      "rationale": "The priority nursing goals for intestinal obstruction are maintaining fluid and electrolyte balance and monitoring for complications.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 20,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Which physical examination finding is characteristic of a mechanical intestinal obstruction?",
+      "options": ["Absent bowel sounds", "High-pitched, tinkling bowel sounds", "Normoactive bowel sounds", "Shifting dullness"],
+      "answerIndex": 1,
+      "rationale": "Auscultation of mechanical obstruction often reveals high-pitched, tinkling bowel sounds.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 21,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Why is Ms. Tan placed on NPO (Nothing by Mouth) status with a Nasogastric Tube (NGT) for her obstruction?",
+      "options": ["To prevent her from becoming overweight", "To decompress the stomach and relieve symptoms of vomiting and distension", "To prepare her for a barium enema", "To increase the production of gastric acid"],
+      "answerIndex": 1,
+      "rationale": "NGT attached to low intermittent suction is used to decompress the stomach in intestinal obstruction.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 22,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Post-operatively, if Ms. Tan undergoes a total colectomy, an \"-ostomy\" suffix in the procedure name refers to:",
+      "options": ["Cutting something out", "Changing the shape", "Making an opening", "Moving an organ to the right place"],
+      "answerIndex": 2,
+      "rationale": "The suffix \"-ostomy\" refers to making an opening.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 23,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Which dietary instruction is appropriate for Ms. Tan after her intestinal obstruction resolves?",
+      "options": ["Eat three large meals a day", "Avoid high-fiber foods that cause gas", "Limit water intake to 500 mL daily", "Drink soda with every meal"],
+      "answerIndex": 1,
+      "rationale": "Education for obstruction recovery includes eating smaller meals, chewing well, and avoiding foods that cause gas or constipation.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 24,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "During the assessment of an obstruction, the nurse notes abdominal tenderness and rigidity. This finding should be reported immediately as it may indicate:",
+      "options": ["Normal healing", "Peritonitis", "Improved peristalsis", "Nausea"],
+      "answerIndex": 1,
+      "rationale": "Tenderness and rigidity are signs of peritonitis, often following perforation or severe obstruction.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 25,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "What is the purpose of using a \"Semi-Fowler\" position for a patient with intestinal obstruction?",
+      "options": ["To increase blood flow to the head", "To reduce the pressure of the distended abdomen on the diaphragm", "To encourage the patient to sleep", "To prevent pressure ulcers on the heels"],
+      "answerIndex": 1,
+      "rationale": "Semi-Fowler position helps alleviate respiratory distress caused by abdominal distension pushing against the diaphragm.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 26,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "A nurse is reviewing Ms. Tan's CBC results. Her Hematocrit is 40%. In the presence of acute bleeding, why might the Hematocrit initially appear normal?",
+      "options": ["Because the body produces more RBCs instantly", "Because it takes time for hemodilution from interstitial fluid shift to reflect in lab values", "Because Hematocrit is not affected by blood loss", "Because her diet is high in iron"],
+      "answerIndex": 1,
+      "rationale": "In acute bleeding, hemoglobin and hematocrit may not drop immediately until fluid shifts or resuscitation occur.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 27,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Which pharmacological agent might be used in intestinal obstruction to stimulate gastric emptying?",
+      "options": ["Loperamide", "Metoclopramide", "Activated Charcoal", "Bismuth Subsalicylate"],
+      "answerIndex": 1,
+      "rationale": "Metoclopramide is used to promote gastric motility.",
+      "source": "NUR2125 Tutorial 1 Gastric & Intestinal Disorder (Case A)"
+    },
+    {
+      "id": 28,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "A patient presents with 5 episodes of loose stools after a week of antibiotics. The nurse understands this may be:",
+      "options": ["A sign of healing", "Antibiotic-induced diarrhea or C. difficile infection", "A result of a high-fiber diet", "Due to anxiety"],
+      "answerIndex": 1,
+      "rationale": "Antibiotics can disrupt the gut microbiome, leading to antibiotic-associated diarrhea or the more serious Clostridium difficile colitis.",
+      "source": "Consolidation - Diarrhoea, constipation.pdf"
+    },
+    {
+      "id": 29,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "Why should anti-motility agents like Loperamide be avoided in severe inflammatory or infectious diarrhea?",
+      "options": ["They cause a metallic taste.", "They can slow the clearance of toxins/pathogens and lead to toxic megacolon.", "They are too expensive.", "They increase the risk of osteoporosis."],
+      "answerIndex": 1,
+      "rationale": "Slowing intestinal transit can be dangerous in severe infectious or inflammatory diarrhea as it may lead to complications like megacolon.",
+      "source": "Consolidation - Diarrhoea, constipation.pdf"
+    },
+    {
+      "id": 30,
+      "section": "Section 2: Colorectal Cancer and Intestinal Obstruction",
+      "text": "What is the mechanism of action for Macrogol (Polyethylene glycol)?",
+      "options": ["Stimulating the enteric nervous system directly", "Drawing water into the bowel lumen via osmosis", "Inhibiting acetylcholine", "Lubricating the stool with mineral oil"],
+      "answerIndex": 1,
+      "rationale": "Macrogol is an osmotic laxative that is poorly absorbable and draws water into the lumen to stimulate peristalsis.",
+      "source": "Consolidation - Diarrhoea, constipation.pdf"
+    },
+
+    {
+      "id": 31,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Three years after her initial diagnosis, Ms. Tan (now 47) presents with jaundice and fatigue. She is a known Hepatitis B carrier. What does her reactive HBsAg indicate?",
+      "options": ["She has immunity from a vaccine.", "She has a current active or chronic infection.", "She has recovered from a previous infection."],
+      "answerIndex": 1,
+      "rationale": "HBsAg (Hepatitis B surface antigen) is the primary marker for an active HBV infection.",
+      "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf"
+    },
+    {
+      "id": 32,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Ms. Tan's HBeAg is non-reactive, but her anti-HBe is reactive, and her HBV DNA load is 2,500 IU/mL. This suggests:",
+      "options": ["The virus is no longer present.", "HBeAg-negative chronic hepatitis B (replicative phase).", "Complete recovery and immunity.", "Acute infection stage."],
+      "answerIndex": 1,
+      "rationale": "For HBeAg-negative patients, immune-active chronic hepatitis B (immune reactivation) is characterized by detectable HBV DNA and potentially mutated virus that continues to replicate.",
+      "source": "Case B for PPNP2 Tutorial-3; PP Tut 3"
+    },
+    {
+      "id": 33,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Ms. Tan's Albumin is 2 g/dL (reference 3.4-5.4). How does hypoalbuminemia contribute to her ascites?",
+      "options": ["By increasing capillary hydrostatic pressure", "By decreasing colloidal osmotic (oncotic) pressure, allowing fluid to leak out of vessels", "By increasing the production of bile salts", "By stimulating the heart to pump faster"],
+      "answerIndex": 1,
+      "rationale": "Albumin helps keep fluid within blood vessels. Low levels lead to decreased oncotic pressure, causing fluid to shift into the tissues (edema) and abdominal cavity (ascites).",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf; PP Tut 3"
+    },
+    {
+      "id": 34,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "The nurse notes \"shifting dullness\" and a \"fluid wave\" during Ms. Tan's abdominal exam. These findings are pathognomonic for:",
+      "options": ["Gastric ulcers", "Cholecystitis", "Ascites", "Constipation"],
+      "answerIndex": 2,
+      "rationale": "Physical findings such as shifting dullness and fluid wave confirm the presence of free fluid in the abdomen (ascites).",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 35,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "What is a common clinical manifestation of chronic hepatitis and cirrhosis in a male patient?",
+      "options": ["Increased testosterone", "Gynecomastia", "Dark green stools", "Hyperactive bowel sounds"],
+      "answerIndex": 1,
+      "rationale": "Cirrhosis can cause gynecomastia in male patients due to the liver's inability to metabolize steroid hormones, leading to an increased estrogen-to-testosterone ratio.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf; PP Tut 3"
+    },
+    {
+      "id": 36,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Ms. Tan is diagnosed with liver cirrhosis. Which diagnostic investigation is the \"gold standard\" for confirming this diagnosis?",
+      "options": ["Abdominal Ultrasound", "Liver function tests", "Ultrasound-guided liver biopsy", "ECG"],
+      "answerIndex": 2,
+      "rationale": "Ultrasound-guided liver biopsy is the gold standard for the diagnosis of Liver Cirrhosis.",
+      "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf"
+    },
+    {
+      "id": 37,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Ms. Tan reports severe itching (pruritus). This is often associated with the accumulation of:",
+      "options": ["Ammonia", "Albumin", "Bilirubin/Bile salts", "Glucose"],
+      "answerIndex": 2,
+      "rationale": "In liver disease, the inability to process bilirubin leads to its deposition in tissues, causing jaundice and pruritus.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 38,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "What nursing advice should be given to Ms. Tan to manage her pruritus?",
+      "options": ["Scratch with fingernails to relieve the itch", "Use strong detergents to clean the skin", "Apply emollients and use cool compresses", "Keep the room very warm"],
+      "answerIndex": 2,
+      "rationale": "Pruritus management includes moisturizing baths, cool compresses, calamine lotion, and avoiding irritants like strong soaps.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 39,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "A patient with cirrhosis presents with confusion and a characteristic \"flapping tremor\" (asterixis). What is the likely cause?",
+      "options": ["Low blood sugar", "Hepatic Encephalopathy due to elevated ammonia", "Alcohol withdrawal", "Hypocalcemia"],
+      "answerIndex": 1,
+      "rationale": "Hepatic encephalopathy (HE) is caused by the accumulation of ammonia and other toxins that cross the blood-brain barrier. Asterixis is a classic sign.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 40,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "What is the primary pharmacological treatment to reduce ammonia levels in Hepatic Encephalopathy?",
+      "options": ["Spironolactone", "Lactulose", "Propranolol", "Omeprazole"],
+      "answerIndex": 1,
+      "rationale": "Lactulose works as an osmotic laxative and lowers gut pH, favoring the conversion of ammonia (NH3) to non-absorbable ammonium (NH4+), which is then excreted.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 41,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "The nurse is monitoring Ms. Tan's INR, which is 1.3 (reference 0.8-1.1). What does this elevated INR signify?",
+      "options": ["Efficient protein synthesis", "A deficiency in vitamin K-dependent clotting factors", "A high risk for blood clots", "Normal liver function"],
+      "answerIndex": 1,
+      "rationale": "An elevated INR indicates the liver is not synthesizing clotting factors effectively, increasing the risk of bleeding.",
+      "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf"
+    },
+    {
+      "id": 42,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Ms. Tan is prescribed Spironolactone for her ascites. What is the mechanism of this drug?",
+      "options": ["Loop diuretic acting on the Loop of Henle", "Aldosterone antagonist that blocks salt and water reabsorption", "Beta-blocker that reduces portal pressure", "Antibiotic that kills gut flora"],
+      "answerIndex": 1,
+      "rationale": "Spironolactone is the first-line diuretic for ascites in cirrhosis because it blocks the hyperaldosteronism that drives fluid retention.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 43,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Why are non-selective beta-blockers like Propranolol or Carvedilol used in patients with cirrhosis?",
+      "options": ["To treat high blood pressure", "To prevent variceal bleeding by reducing portal hypertension", "To treat an active infection", "To increase heart rate"],
+      "answerIndex": 1,
+      "rationale": "Non-selective beta-blockers cause splanchnic vasoconstriction and decreased cardiac output, effectively lowering portal pressure and reducing the risk of variceal hemorrhage.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 44,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "A nurse is reviewing medications to avoid in cirrhosis. Why should NSAIDs be avoided?",
+      "options": ["They cause jaundice.", "They increase the risk of hepatorenal syndrome and GI bleeding.", "They lead to metallic taste.", "They increase the DNA load of HBV."],
+      "answerIndex": 1,
+      "rationale": "NSAIDs increase the risk of renal impairment (hepatorenal syndrome) and GI ulcers/bleeding in cirrhotic patients.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 45,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "What is the recommended maximum daily dose of Paracetamol for a patient with advanced cirrhosis?",
+      "options": ["4 g/day", "2 g/day", "500 mg/day", "It should be avoided entirely"],
+      "answerIndex": 1,
+      "rationale": "While paracetamol is generally safe in cirrhosis, it should be limited to 2g/day in advanced or decompensated cases.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 46,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Which Hepatitis virus cannot cause infection without the presence of Hepatitis B?",
+      "options": ["Hepatitis A", "Hepatitis C", "Hepatitis D", "Hepatitis E"],
+      "answerIndex": 2,
+      "rationale": "Hepatitis D (HDV) is a defective virus that requires the surface antigen of HBV (HBsAg) to replicate.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 47,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "Hepatitis A and E are primarily transmitted via:",
+      "options": ["Blood and body fluids", "The fecal-oral route", "Vertical transmission from mother to baby", "Needlesticks"],
+      "answerIndex": 1,
+      "rationale": "Hepatitis A and E are typically transmitted through contaminated food or water (fecal-oral).",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 48,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "\"Caput Medusae\" is a physical finding characterized by:",
+      "options": ["Yellowing of the eyes", "Distended veins on the abdominal wall", "Redness of the palms", "Small spider-like veins on the face"],
+      "answerIndex": 1,
+      "rationale": "Caput medusae (abdominal wall vascular collaterals) is a stigma of portal hypertension.",
+      "source": "Cirrhosis and Chronic liver failure.pdf; PP Tut 3"
+    },
+    {
+      "id": 49,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "A patient with cirrhosis has a Child-Pugh score of 12. This indicates:",
+      "options": ["Mild disease (Class A)", "Moderate disease (Class B)", "Severe, decompensated disease (Class C)", "A 100% one-year survival rate"],
+      "answerIndex": 2,
+      "rationale": "A total Child-Pugh score of 10 to 15 is Class C, indicating decompensated disease and high mortality risk.",
+      "source": "Cirrhosis and Chronic liver failure.pdf; PP Tut 3"
+    },
+    {
+      "id": 50,
+      "section": "Section 3: Hepatitis and Liver Disorders",
+      "text": "What is the purpose of the MARS (Molecular Adsorbent Recirculating System)?",
+      "options": ["Permanent liver replacement", "Temporary support to clean the blood of albumin-bound toxins as a bridge to transplant", "To deliver high doses of antibiotics", "To monitor blood sugar levels"],
+      "answerIndex": 1,
+      "rationale": "MARS is an advanced liver support service that extracts albumin-bound and water-soluble toxins, acting as a bridging therapy for patients awaiting transplant.",
+      "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf"
+    },
+
+    {
+      "id": 51,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Which antacid species is most likely to cause constipation?",
+      "options": ["Magnesium hydroxide", "Aluminum hydroxide", "Sodium Bicarbonate", "Magnesium trisilicate"],
+      "answerIndex": 1,
+      "rationale": "Aluminum hydroxide is known to cause constipation. Magnesium-based antacids tend to cause diarrhea.",
+      "source": "NUR2125 interactive sesssion 11 Feb 2026.pdf"
+    },
+    {
+      "id": 52,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "A patient is prescribed both an antacid and other medications. What should the nurse advise?",
+      "options": ["Take them all together to save time.", "Take the antacid 2 hours before or after other medications.", "Antacids do not interact with other drugs.", "Only take the antacid if the other drugs cause pain."],
+      "answerIndex": 1,
+      "rationale": "Antacids can affect the absorption of other drugs by altering gastric pH or binding to them; they should be spaced out.",
+      "source": "Consolidation - Drugs to treat peptic ulcers.pdf"
+    },
+    {
+      "id": 53,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "What is the antidote for a Paracetamol overdose?",
+      "options": ["Vitamin K", "N-acetylcysteine (NAC)", "Lactulose", "Naloxone"],
+      "answerIndex": 1,
+      "rationale": "N-acetylcysteine is the antidote for paracetamol overdose, as it stimulates glutathione production to neutralize the toxic metabolite NAPQI.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 54,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "In the context of antimicrobial therapy, what does \"empiric therapy\" mean?",
+      "options": ["Treatment based on a confirmed culture result", "Starting a broad-spectrum antibiotic before culture results are available to prevent deterioration", "Using an antibiotic only for 2 days", "Giving antibiotics only when the patient asks"],
+      "answerIndex": 1,
+      "rationale": "Empiric therapy is started early based on likely pathogens while awaiting microbiological confirmation to prevent rapid clinical decline.",
+      "source": "NUR2125 interactive sesssion 11 Feb 2026.pdf"
+    },
+    {
+      "id": 55,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Which principle of antimicrobial stewardship is most important for a nurse to support?",
+      "options": ["Always using the newest and most expensive drug", "Switching to a narrower-spectrum antibiotic once a specific pathogen is identified", "Using antibiotics for viral infections", "Encouraging patients to save leftover antibiotics"],
+      "answerIndex": 1,
+      "rationale": "De-escalating to narrow-spectrum agents reduces the risk of adverse effects and the emergence of antimicrobial resistance.",
+      "source": "NUR2125 interactive sesssion 11 Feb 2026.pdf"
+    },
+    {
+      "id": 56,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "\"Red Man Syndrome\" is an infusion-related adverse effect associated with:",
+      "options": ["Amoxicillin", "Metronidazole", "Vancomycin", "Ciprofloxacin"],
+      "answerIndex": 2,
+      "rationale": "Vancomycin is associated with Red Man Syndrome if infused too quickly.",
+      "source": "NUR 2125 General Principles of Antimicrobial drugs.pdf"
+    },
+    {
+      "id": 57,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "What is a common side effect of Metronidazole?",
+      "options": ["Red urine", "Metallic taste", "Permanent hearing loss", "Weight gain"],
+      "answerIndex": 1,
+      "rationale": "Metronidazole is known for causing a metallic taste and potential GI side effects.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 58,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Bactericidal antibiotics are preferred over bacteriostatic ones in immunocompromised patients because:",
+      "options": ["They are cheaper.", "They rely less on the patient's own immune system to eliminate the pathogen.", "They do not cause side effects.", "They only work on the cell wall."],
+      "answerIndex": 1,
+      "rationale": "Bactericidal drugs kill the bacteria, whereas bacteriostatic drugs inhibit growth and require a functional immune system to finish the job.",
+      "source": "NUR2125 interactive sesssion 11 Feb 2026.pdf"
+    },
+    {
+      "id": 59,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Which of the following describes \"Virulence\"?",
+      "options": ["The ability of an organism to cause infection", "The degree of pathogenicity or the ability of a microbe to produce disease in small numbers", "The Kind of microorganism killed", "The color of the bacteria after staining"],
+      "answerIndex": 1,
+      "rationale": "Virulence describes the degree of pathogenicity; a highly virulent microbe can produce disease even in minute numbers.",
+      "source": "NUR 2125 General Principles of Antimicrobial drugs.pdf"
+    },
+    {
+      "id": 60,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Metabolic Dysfunction Associated Steatohepatitis (MASH), formerly NASH, is closely related to:",
+      "options": ["Alcoholism", "Obesity and Diabetes", "Blood transfusions", "Spicy food"],
+      "answerIndex": 1,
+      "rationale": "MASH is the leading cause of liver disease in the developed world and is part of the metabolic syndrome related to obesity and diabetes.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 61,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "A patient is undergoing an abdominal paracentesis. The nurse should monitor for:",
+      "options": ["Increased blood pressure", "Hypovolemia and shock due to rapid fluid shift", "Weight gain", "Excessive hunger"],
+      "answerIndex": 1,
+      "rationale": "Large-volume fluid removal can lead to hemodynamic instability and hypovolemia.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 62,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Which medication is used to prevent the absorption of ammonia in the GI tract via a cleansing effect?",
+      "options": ["High cleansing enema", "Antacids", "Aspirin", "Prednisolone"],
+      "answerIndex": 0,
+      "rationale": "Cleansing enemas can be used to reduce ammonia absorption from the GI tract in hepatic encephalopathy.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 63,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "\"Asterixis\" is assessed by asking the patient to:",
+      "options": ["Walk in a straight line", "Extend the arms and dorsiflex the wrists", "Read a small chart", "Squeeze the nurse's hand"],
+      "answerIndex": 1,
+      "rationale": "Asterixis (flapping tremor) is assessed by having the patient hold their arms out with wrists dorsiflexed.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf; PP Tut 3"
+    },
+    {
+      "id": 64,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "In cirrhosis, why is \"Fetor Hepaticus\" present?",
+      "options": ["Because of poor oral hygiene", "Due to the breath odor caused by the accumulation of sulfur compounds the liver cannot metabolize", "Because of the patient's diet", "Due to a gastric ulcer"],
+      "answerIndex": 1,
+      "rationale": "Fetor hepaticus is a sweet, pungent breath odor characteristic of liver failure.",
+      "source": "Cirrhosis and Chronic liver failure.pdf; PP Tut 3"
+    },
+    {
+      "id": 65,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "What is the primary cause of esophageal varices?",
+      "options": ["Chronic vomiting", "Portal Hypertension", "Excessive use of PPIs", "Eating hard food"],
+      "answerIndex": 1,
+      "rationale": "Portal hypertension causes blood to be shunted into collateral channels, such as esophageal veins, which become distended and prone to rupture.",
+      "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf"
+    },
+    {
+      "id": 66,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Which medication provides \"splanchnic vasoconstriction\" to treat acute variceal bleeding?",
+      "options": ["Somatostatin/Octreotide", "Spironolactone", "Lactulose", "Rifaximin"],
+      "answerIndex": 0,
+      "rationale": "Somatostatin causes splanchnic vasoconstriction, reducing blood flow to the varices.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 67,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "A patient with cirrhosis has a low platelet count (Thrombocytopenia). This is likely due to:",
+      "options": ["Increased platelet production", "Splenomegaly (sequestration of platelets in the enlarged spleen)", "A high-protein diet", "Vitamin D deficiency"],
+      "answerIndex": 1,
+      "rationale": "Portal hypertension causes splenomegaly, which leads to the trapping and destruction of platelets and white blood cells.",
+      "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf"
+    },
+    {
+      "id": 68,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "What clinical finding suggests Stage III Hepatic Encephalopathy?",
+      "options": ["Mild confusion", "Lethargy and drowsiness", "Somnolent but arousable, slurred speech, and aggression", "Coma"],
+      "answerIndex": 2,
+      "rationale": "Stage III HE is characterized by severe somnolence, slurred speech, and aggression, while Stage IV is coma.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 69,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "To prevent further liver injury, a patient with cirrhosis must:",
+      "options": ["Increase alcohol intake", "Avoid hepatotoxic medications like NSAIDs and excessive paracetamol", "Eat a high-sodium diet", "Avoid all physical activity"],
+      "answerIndex": 1,
+      "rationale": "Management of cirrhosis includes avoiding alcohol and hepatotoxic medications to prevent further decompensation.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 70,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "What is the effect of Lactulose on fecal nitrogen excretion?",
+      "options": ["It decreases it", "It increases it", "It has no effect", "It stops it completely"],
+      "answerIndex": 1,
+      "rationale": "Lactulose increases gut motility and fecal nitrogen excretion, helping to lower blood ammonia levels.",
+      "source": "Consolidation - Drugs used in liver disease.pdf"
+    },
+    {
+      "id": 71,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Following a laparoscopic cholecystectomy, a patient complains of right shoulder pain. The nurse explains this is:",
+      "options": ["A sign of a heart attack", "Due to CO2 gas lingering and irritating the phrenic nerve", "Because of the surgical incision", "A result of the patient's position"],
+      "answerIndex": 1,
+      "rationale": "CO2 used during laparoscopy can irritate the phrenic nerve, causing referred pain to the shoulder.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 72,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Post-cholecystectomy, which position may help relieve the discomfort of lingering CO2 gas?",
+      "options": ["Supine", "High-Fowler", "Sims position (left side with right knee flexed)", "Prone"],
+      "answerIndex": 2,
+      "rationale": "Assisting the patient into the Sims position can help with the redistribution and absorption of the CO2 gas.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 73,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Patients discharged after a cholecystectomy should follow a diet:",
+      "options": ["High in fat to stimulate the liver", "Low in refined carbs and fats, high in fiber", "Limited to liquids only for a month", "High in sodium"],
+      "answerIndex": 1,
+      "rationale": "Post-cholecystectomy dietary modifications include low-fat, high-fiber intake to manage the loss of the gallbladder's bile-storage function.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 74,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Which lab value is most specific for identifying metabolic or drug-induced hepatic injury?",
+      "options": ["AST", "ALT", "ALP", "Albumin"],
+      "answerIndex": 1,
+      "rationale": "ALT (Alanine Aminotransferase) is considered the most specific screening test for liver-specific injury.",
+      "source": "Cirrhosis and Chronic liver failure.pdf; PP Tut 3"
+    },
+    {
+      "id": 75,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "A platelet count of less than 160 K/mm3 in a patient with chronic Hepatitis C has a high sensitivity for detecting:",
+      "options": ["Acute infection", "Cirrhosis", "Gastric ulcers", "Diabetes"],
+      "answerIndex": 1,
+      "rationale": "Studies show that a lower platelet count is a strong indicator of the presence of cirrhosis in chronic hepatitis patients.",
+      "source": "Cirrhosis and Chronic liver failure.pdf"
+    },
+    {
+      "id": 76,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "What is \"Fecal-Oral\" transmission?",
+      "options": ["Spread through kissing", "Transmission through contaminated food or water", "Spread through blood transfusions", "Transmission through skin-to-skin contact"],
+      "answerIndex": 1,
+      "rationale": "Fecal-oral transmission occurs when a pathogen from the stool of an infected person is ingested by another person, usually through contaminated food or water.",
+      "source": "NUR2125 Tutorial 5 Hepato Week 5.pdf"
+    },
+    {
+      "id": 77,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "A \"spider angioma\" is a vascular lesion typically found on the:",
+      "options": ["Feet and ankles", "Trunk, face, and upper extremities", "Palms of the hands", "Inside of the mouth"],
+      "answerIndex": 1,
+      "rationale": "Spider angiomata (vascular spiders) are common in cirrhosis and are found on the upper body.",
+      "source": "Cirrhosis and Chronic liver failure.pdf"
+    },
+    {
+      "id": 78,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "The \"MELD\" score used for liver transplant urgency is calculated using which values?",
+      "options": ["Bilirubin, Albumin, and HR", "Creatinine, Bilirubin, and INR", "BP, RR, and Temperature", "Height, Weight, and Age"],
+      "answerIndex": 1,
+      "rationale": "The Model for End-Stage Liver Disease (MELD) score uses Creatinine, Bilirubin, and INR to estimate the severity of liver disease.",
+      "source": "PP Tut 3 NUR2125 PP Tutorial 2-1.pdf"
+    },
+    {
+      "id": 79,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "Which of the following describes the \"invasiveness\" of a pathogen?",
+      "options": ["Its ability to produce toxins", "Its ability to grow rapidly and cause direct damage to tissues by sheer numbers", "Its Kind of microorganism", "Its color under a microscope"],
+      "answerIndex": 1,
+      "rationale": "Invasiveness is the ability of a pathogen to grow rapidly and cause damage through its population size.",
+      "source": "NUR 2125 General Principles of Antimicrobial drugs.pdf"
+    },
+    {
+      "id": 80,
+      "section": "Section 4: General Nursing Care and Pharmacology",
+      "text": "What is the \"Minimum Inhibitory Concentration\" (MIC)?",
+      "options": ["The amount of drug that kills all bacteria", "The least amount of antibiotic required to prevent bacteria from multiplying", "The maximum dose a patient can take", "The concentration that causes side effects"],
+      "answerIndex": 1,
+      "rationale": "MIC is the least amount of antibiotic required to prevent bacterial multiplication in a lab test.",
+      "source": "NUR 2125 General Principles of Antimicrobial drugs.pdf"
+    }
+  ]
+}

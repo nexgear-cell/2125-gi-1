@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PPNP Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root{
+      color-scheme: light dark;
+      --border:#1f2937;
+      --muted:#9ca3af;
+      --text:#e5e7eb;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:radial-gradient(circle at top,#1e293b,#020617 55%);
+      color:var(--text);
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+    }
+    .app{width:100%;max-width:1100px;padding:24px 16px 40px}
+    header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+    .title{font-size:1.25rem;font-weight:800;letter-spacing:.03em;text-transform:uppercase}
+    .controls{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+    .pill-select{border-radius:999px;border:1px solid rgba(148,163,184,.35);background:rgba(15,23,42,.8);padding:6px 10px;font-size:.8rem;color:var(--text)}
+    .btn{padding:8px 14px;border-radius:999px;border:1px solid rgba(148,163,184,.35);background:transparent;color:var(--text);cursor:pointer;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase}
+    .btn-primary{border-color:rgba(34,197,94,.8);background:linear-gradient(135deg,#16a34a,#22c55e);color:#022c22;font-weight:900}
+    .btn:disabled{opacity:.5;cursor:default}
+    main{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:16px}
+    @media (max-width:840px){main{grid-template-columns:minmax(0,1fr)}}
+    .card{
+      background:radial-gradient(circle at top left,rgba(148,163,184,.18),rgba(15,23,42,.96));
+      border-radius:18px;border:1px solid var(--border);
+      box-shadow:0 22px 45px rgba(0,0,0,.5);
+      padding:18px 18px 20px;
+    }
+    .question-header{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px}
+    .q-tag{font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+    .q-section{font-size:.75rem;padding:3px 9px;border-radius:999px;background:rgba(15,23,42,.9);border:1px solid rgba(148,163,184,.4);color:#e0f2fe;white-space:nowrap;max-width:260px;text-overflow:ellipsis;overflow:hidden}
+    .progress-bar{position:relative;width:100%;height:6px;border-radius:999px;background:rgba(15,23,42,.95);overflow:hidden;margin:6px 0 14px}
+    .progress-fill{position:absolute;inset:0;width:0%;background:linear-gradient(90deg,#22c55e,#a3e635);transition:width .25s ease-out}
+    .question-text{font-size:.95rem;line-height:1.5;margin-bottom:14px}
+    .options{display:grid;gap:8px;margin-bottom:14px}
+    .option{position:relative}
+    .option input{position:absolute;opacity:0;pointer-events:none}
+    .option-label{display:flex;align-items:flex-start;gap:8px;padding:10px 11px;border-radius:12px;border:1px solid rgba(148,163,184,.45);cursor:pointer;font-size:.9rem;background:rgba(15,23,42,.9)}
+    .option-prefix{min-width:20px;font-weight:900;color:var(--muted)}
+    .option.correct .option-label{border-color:rgba(34,197,94,.9);background:rgba(34,197,94,.15)}
+    .option.incorrect .option-label{border-color:rgba(239,68,68,.9);background:rgba(248,113,113,.08)}
+    .option.selected .option-label{box-shadow:0 0 0 1px rgba(148,163,184,.7)}
+    .rationale{margin-top:8px;padding:9px 10px;border-radius:12px;background:rgba(15,23,42,.9);border:1px dashed rgba(148,163,184,.7);font-size:.85rem;color:var(--muted)}
+    .nav-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-top:10px}
+    .side{display:flex;flex-direction:column;gap:12px}
+    .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:6px}
+    .stat{padding:8px 9px;border-radius:12px;background:rgba(15,23,42,.9);border:1px solid rgba(148,163,184,.35);font-size:.75rem}
+    .stat-label{color:var(--muted);margin-bottom:3px}
+    .stat-value{font-size:.95rem;font-weight:950}
+    .grid-title{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;color:var(--muted);margin-bottom:6px}
+    .question-grid{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:5px}
+    @media (max-width:450px){.question-grid{grid-template-columns:repeat(8,minmax(0,1fr))}}
+    .q-pill{border-radius:999px;padding:4px 0;font-size:.75rem;text-align:center;border:1px solid rgba(148,163,184,.4);background:rgba(15,23,42,.85);color:var(--muted);cursor:pointer}
+    .q-pill.current{border-color:rgba(34,197,94,.9);background:rgba(34,197,94,.16);color:#bbf7d0;font-weight:950}
+    .q-pill.correct{border-color:rgba(34,197,94,.9);background:rgba(34,197,94,.16);color:#4ade80}
+    .q-pill.incorrect{border-color:rgba(239,68,68,.9);background:rgba(248,113,113,.14);color:#fecaca}
+    .q-pill.unanswered{border-style:dashed}
+    .summary{font-size:.85rem;color:var(--muted);margin-top:10px}
+    .loader{padding:18px;border-radius:18px;border:1px solid var(--border);background:rgba(15,23,42,.85);color:var(--muted)}
+    .src-line{margin-top:6px}
+  </style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div>
+      <div class="title" id="title">PPNP Quiz</div>
+      <div class="summary" id="subtitle"></div>
+    </div>
+    <div class="controls">
+      <select id="filterSection" class="pill-select"></select>
+      <button id="toggleMode" class="btn" type="button">Practice mode</button>
+      <button id="restartBtn" class="btn" type="button">Restart</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="card" aria-label="Question area">
+      <div id="loading" class="loader">Loading questions…</div>
+
+      <div id="quizUI" style="display:none;">
+        <div class="question-header">
+          <div class="q-tag" id="qMeta"></div>
+          <div class="q-section" id="qSection"></div>
+        </div>
+
+        <div class="progress-bar" aria-hidden="true">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <div class="question-text" id="qText"></div>
+        <div class="options" id="options"></div>
+
+        <div id="rationale" class="rationale" style="display:none;">
+          <div id="rationaleText"></div>
+          <div id="sourceText" class="src-line"></div>
+        </div>
+
+        <div class="nav-row">
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button class="btn" id="prevBtn" type="button">&larr; Prev</button>
+            <button class="btn" id="nextBtn" type="button">Next &rarr;</button>
+          </div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <button class="btn btn-primary" id="submitBtn" type="button">Show score</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="side">
+      <section class="card">
+        <div class="grid-title">
+          <span>Progress overview</span>
+          <span id="modeLabel">Practice mode</span>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-label">Attempted</div>
+            <div class="stat-value" id="statAttempted">0</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Correct</div>
+            <div class="stat-value" id="statCorrect">0</div>
+          </div>
+          <div class="stat">
+            <div class="stat-label">Score</div>
+            <div class="stat-value" id="statScore">0%</div>
+          </div>
+        </div>
+        <div class="summary" id="summaryText">
+          Select an answer in <strong>Practice mode</strong> to see correctness, rationale, and source immediately.
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="grid-title">
+          <span>Jump to question</span>
+          <span id="gridRange"></span>
+        </div>
+        <div class="question-grid" id="qGrid"></div>
+      </section>
+    </aside>
+  </main>
+</div>
+
+<script>
+  let DB = null;
+  let questions = [];
+
+  async function loadDB() {
+    const res = await fetch("./questions1.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("Failed to load questions1.json (" + res.status + ")");
+    DB = await res.json();
+    questions = DB.questions || [];
+    if (!Array.isArray(questions) || questions.length === 0) throw new Error("No questions found in questions1.json");
+  }
+
+  let mode = "practice"; // practice | exam
+  let currentIndex = 0;
+  let answers = [];
+  let results = [];
+  let filteredIndices = [];
+
+  const filterSelect = document.getElementById("filterSection");
+  const titleEl = document.getElementById("title");
+  const subtitleEl = document.getElementById("subtitle");
+
+  const loadingEl = document.getElementById("loading");
+  const quizUI = document.getElementById("quizUI");
+
+  const qMeta = document.getElementById("qMeta");
+  const qSection = document.getElementById("qSection");
+  const qText = document.getElementById("qText");
+  const optionsDiv = document.getElementById("options");
+
+  const rationaleDiv = document.getElementById("rationale");
+  const rationaleText = document.getElementById("rationaleText");
+  const sourceText = document.getElementById("sourceText");
+
+  const progressFill = document.getElementById("progressFill");
+
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+  const submitBtn = document.getElementById("submitBtn");
+  const restartBtn = document.getElementById("restartBtn");
+  const toggleModeBtn = document.getElementById("toggleMode");
+  const modeLabel = document.getElementById("modeLabel");
+
+  const statAttempted = document.getElementById("statAttempted");
+  const statCorrect = document.getElementById("statCorrect");
+  const statScore = document.getElementById("statScore");
+
+  const summaryText = document.getElementById("summaryText");
+  const qGrid = document.getElementById("qGrid");
+  const gridRange = document.getElementById("gridRange");
+
+  function escapeHtml(str) {
+    return String(str ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function uniqueSections() {
+    const set = new Set(questions.map(q => q.section).filter(Boolean));
+    return Array.from(set);
+  }
+
+  function setupFilterOptions() {
+    const sections = uniqueSections();
+    filterSelect.innerHTML = "";
+
+    const allOpt = document.createElement("option");
+    allOpt.value = "all";
+    allOpt.textContent = `All sections (1–${questions.length})`;
+    filterSelect.appendChild(allOpt);
+
+    sections.forEach(sec => {
+      const opt = document.createElement("option");
+      opt.value = sec;
+      opt.textContent = sec;
+      filterSelect.appendChild(opt);
+    });
+  }
+
+  function applyFilter() {
+    const val = filterSelect.value;
+    if (val === "all") {
+      filteredIndices = questions.map((_, i) => i);
+      gridRange.textContent = `1–${questions.length}`;
+    } else {
+      filteredIndices = questions
+        .map((q, i) => ({ q, i }))
+        .filter(x => x.q.section === val)
+        .map(x => x.i);
+
+      const firstId = questions[filteredIndices[0]]?.id ?? 1;
+      const lastId = questions[filteredIndices[filteredIndices.length - 1]]?.id ?? firstId;
+      gridRange.textContent = `${firstId}–${lastId}`;
+    }
+
+    if (!filteredIndices.includes(currentIndex)) currentIndex = filteredIndices[0] ?? 0;
+    renderQuestion();
+    renderGrid();
+    updateStats();
+  }
+
+  function updateProgress() {
+    const attempted = answers.reduce((acc, a, i) => acc + ((a !== null && filteredIndices.includes(i)) ? 1 : 0), 0);
+    const total = filteredIndices.length || 1;
+    progressFill.style.width = ((attempted / total) * 100) + "%";
+  }
+
+  function updateNavButtons() {
+    const pos = filteredIndices.indexOf(currentIndex);
+    prevBtn.disabled = pos <= 0;
+    nextBtn.disabled = pos >= filteredIndices.length - 1;
+  }
+
+  function showFeedback() {
+    const idx = currentIndex;
+    const q = questions[idx];
+    if (!q) return;
+
+    const shouldShow =
+      (mode === "practice" && answers[idx] != null) ||
+      (mode === "exam" && results[idx] != null);
+
+    if (!shouldShow) {
+      rationaleDiv.style.display = "none";
+      return;
+    }
+
+    rationaleDiv.style.display = "block";
+
+    const isCorrectNow =
+      (answers[idx] != null && answers[idx] === q.answerIndex) ||
+      (results[idx] === true);
+
+    const prefix = isCorrectNow ? "Correct: " : "Rationale: ";
+    rationaleText.textContent = prefix + (q.rationale || "");
+
+    const src = q.source || "";
+    sourceText.innerHTML = src
+      ? ("<strong>Source:</strong> " + escapeHtml(src))
+      : ("<strong>Source:</strong> Not provided");
+  }
+
+  function renderQuestion() {
+    const idx = currentIndex;
+    const q = questions[idx];
+    if (!q) return;
+
+    const position = filteredIndices.indexOf(idx);
+    const total = filteredIndices.length;
+
+    qMeta.textContent = `Question ${q.id} · ${position + 1} of ${total}`;
+    qSection.textContent = q.section || "";
+    qText.textContent = q.text || "";
+
+    optionsDiv.innerHTML = "";
+    (q.options || []).forEach((optText, i) => {
+      const optId = `q${q.id}_opt${i}`;
+
+      const wrapper = document.createElement("div");
+      wrapper.className = "option";
+
+      const selectedIndex = answers[idx];
+      const isSelected = selectedIndex === i;
+
+      if (mode === "practice" && selectedIndex != null) {
+        if (i === q.answerIndex) wrapper.classList.add("correct");
+        if (i === selectedIndex && selectedIndex !== q.answerIndex) wrapper.classList.add("incorrect");
+        if (isSelected) wrapper.classList.add("selected");
+      } else if (mode === "exam" && selectedIndex != null && isSelected) {
+        wrapper.classList.add("selected");
+      }
+
+      const input = document.createElement("input");
+      input.type = "radio";
+      input.name = "q" + q.id;
+      input.id = optId;
+      input.value = i;
+      input.checked = isSelected;
+
+      const label = document.createElement("label");
+      label.className = "option-label";
+      label.setAttribute("for", optId);
+
+      const prefix = document.createElement("div");
+      prefix.className = "option-prefix";
+      prefix.textContent = String.fromCharCode(65 + i) + ".";
+
+      const span = document.createElement("div");
+      span.textContent = optText;
+
+      label.appendChild(prefix);
+      label.appendChild(span);
+
+      input.addEventListener("change", () => {
+        answers[idx] = i;
+        if (mode === "practice") results[idx] = (i === q.answerIndex);
+        renderQuestion();
+        renderGrid();
+        updateStats();
+      });
+
+      wrapper.appendChild(input);
+      wrapper.appendChild(label);
+      optionsDiv.appendChild(wrapper);
+    });
+
+    showFeedback();
+    updateNavButtons();
+    updateProgress();
+  }
+
+  function renderGrid() {
+    qGrid.innerHTML = "";
+    filteredIndices.forEach(idx => {
+      const q = questions[idx];
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "q-pill";
+      btn.textContent = q.id;
+
+      if (idx === currentIndex) btn.classList.add("current");
+
+      if (answers[idx] == null) btn.classList.add("unanswered");
+      else if (results[idx] === true) btn.classList.add("correct");
+      else if (results[idx] === false) btn.classList.add("incorrect");
+
+      btn.addEventListener("click", () => {
+        currentIndex = idx;
+        renderQuestion();
+        renderGrid();
+      });
+
+      qGrid.appendChild(btn);
+    });
+  }
+
+  function updateStats() {
+    const attempted = answers.reduce((acc, a, i) => acc + ((a !== null && filteredIndices.includes(i)) ? 1 : 0), 0);
+    const correct = answers.reduce((acc, a, i) => {
+      if (a === null || !filteredIndices.includes(i)) return acc;
+      return acc + ((a === questions[i].answerIndex) ? 1 : 0);
+    }, 0);
+
+    const total = filteredIndices.length || 1;
+    const score = Math.round((correct / total) * 100);
+
+    statAttempted.textContent = attempted;
+    statCorrect.textContent = correct;
+    statScore.textContent = (isNaN(score) ? 0 : score) + "%";
+  }
+
+  prevBtn.addEventListener("click", () => {
+    const pos = filteredIndices.indexOf(currentIndex);
+    if (pos > 0) { currentIndex = filteredIndices[pos - 1]; renderQuestion(); renderGrid(); }
+  });
+
+  nextBtn.addEventListener("click", () => {
+    const pos = filteredIndices.indexOf(currentIndex);
+    if (pos < filteredIndices.length - 1) { currentIndex = filteredIndices[pos + 1]; renderQuestion(); renderGrid(); }
+  });
+
+  submitBtn.addEventListener("click", () => {
+    filteredIndices.forEach(idx => {
+      const q = questions[idx];
+      const a = answers[idx];
+      if (a != null) results[idx] = (a === q.answerIndex);
+    });
+    updateStats();
+    renderQuestion();
+    renderGrid();
+
+    const attempted = answers.reduce((acc, a, i) => acc + ((a !== null && filteredIndices.includes(i)) ? 1 : 0), 0);
+    summaryText.innerHTML =
+      "You have answered <strong>" + attempted + " / " + filteredIndices.length +
+      "</strong> questions in this view. Use the grid to review items, or switch sections for targeted practice.";
+  });
+
+  restartBtn.addEventListener("click", () => {
+    answers = new Array(questions.length).fill(null);
+    results = new Array(questions.length).fill(null);
+    currentIndex = filteredIndices[0] ?? 0;
+    summaryText.innerHTML =
+      "Select an answer in <strong>Practice mode</strong> to see correctness, rationale, and source immediately.";
+    updateStats();
+    renderQuestion();
+    renderGrid();
+  });
+
+  toggleModeBtn.addEventListener("click", () => {
+    mode = (mode === "practice") ? "exam" : "practice";
+    modeLabel.textContent = mode === "practice" ? "Practice mode" : "Exam mode";
+    toggleModeBtn.textContent = mode === "practice" ? "Practice mode" : "Exam mode";
+    summaryText.innerHTML = mode === "practice"
+      ? "In <strong>Practice mode</strong>, you will see correctness, rationale, and source right after answering."
+      : "In <strong>Exam mode</strong>, review is emphasized after you click Show score.";
+    renderQuestion();
+    renderGrid();
+  });
+
+  filterSelect.addEventListener("change", applyFilter);
+
+  (async function init() {
+    try {
+      await loadDB();
+
+      titleEl.textContent = DB?.meta?.title || "Quiz";
+      subtitleEl.textContent = DB?.meta?.version ? ("Version " + DB.meta.version) : (DB?.meta?.description || "");
+
+      answers = new Array(questions.length).fill(null);
+      results = new Array(questions.length).fill(null);
+
+      setupFilterOptions();
+      applyFilter();
+
+      loadingEl.style.display = "none";
+      quizUI.style.display = "block";
+      renderQuestion();
+      renderGrid();
+      updateStats();
+    } catch (e) {
+      loadingEl.textContent = "Error: " + e.message + ". Put questions1.json next to index.html and run a local web server.";
+    }
+  })();
+</script>
+</body>
+</html>
