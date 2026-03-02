@@ -232,7 +232,7 @@
 <body>
 <div class="app-wrapper" id="app">
     <header>
-        <h1>🔒 NUR2125 GI PPNP Quiz</h1>
+        <h1>🧪 NUR2125 GI PPNP Quiz</h1>
         <p>answers locked once selected | score per part</p>
         <div class="part-selector">
             <button v-for="p in partList" :key="p.val" class="part-btn" :class="{active: currentPart === p.val}" @click="switchPart(p.val)">{{ p.label }}</button>
@@ -315,7 +315,7 @@
                     { val: '6', label: '6 Cholecystitis' },
                     { val: '7', label: '7 Hepatitis' },
                     { val: '8', label: '8 Cirrhosis' },
-                    { val: '9-13', label: '9–13 Advanced' }
+                    { val: '9-13', label: '9–13 Pharmacology' }
                 ];
             },
             filteredQuestions() {
